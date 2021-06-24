@@ -18,7 +18,6 @@ func main() {
 	/*--------------*/
 
 	var action string
-
 	flag.StringVar(&action, "a", "start",
 		`Specify the action: 
 	- generate-world	Generates a new world
