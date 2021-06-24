@@ -16,6 +16,8 @@ The city and each of the pairs are separated by a single space, and the directio
 ## How to build and run the app
 
 ```
+git clone https://github.com/mojtaba-esk/alienInvasion
+cd alienInvasion
 go build -o alienInvasion .
 ./alienInvasion
 ```
