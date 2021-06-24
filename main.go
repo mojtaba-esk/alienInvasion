@@ -52,7 +52,9 @@ func main() {
 			aliens.InitInvasion(numOfAliens, listOfAllCities)
 
 			fmt.Printf("\n\n\t\t==============================\n")
-			fmt.Printf("\nThe cities left of the world:\n\n")
+
+			totalAliveCities := int64(len(listOfAllCities)) - world.NumOfDestroyedCities(listOfAllCities)
+			fmt.Printf("\nThe cities left of the world: `%d`\n\n", totalAliveCities)
 
 			world.PrintAllCities(listOfAllCities)
 		}

@@ -20,11 +20,11 @@ type citiesMutexList map[*world.City]*sync.Mutex
  */
 func InitInvasion(numOfAliens int64, listOfCities world.Cities) {
 
-	if numOfAliens <= 0 {
+	numOfCities := int64(len(listOfCities)) // better to cast once that having it in the loop
+
+	if numOfAliens <= 0 || numOfCities == 0 {
 		return
 	}
-
-	numOfCities := int64(len(listOfCities)) // better to cast once that having it in the loop
 
 	/*----------*/
 

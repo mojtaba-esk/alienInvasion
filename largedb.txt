@@ -1,0 +1,1000 @@
+Banning east=Herve 
+Herve north=Basel west=Banning 
+Basel north=Kornwestheim south=Herve 
+Kornwestheim north=Apalit east=Douglas south=Basel west=Srīvardhan 
+Apalit north=Douglas east=Srīvardhan south=Kornwestheim west=Cambé 
+Douglas south=Apalit west=Kornwestheim 
+Srīvardhan north=Cambé east=Kornwestheim south=Piraju west=Apalit 
+Cambé east=Apalit south=Srīvardhan west=Piraju 
+Piraju north=Srīvardhan east=Cambé south=Urziceni west=Dalkola 
+Urziceni north=Piraju 
+Dalkola east=Piraju 
+Viladecans north=Toruń east=Itaberaba west=Porbandar 
+Toruń east=Itaberaba south=Viladecans west=Porbandar 
+Itaberaba north=Porbandar south=Santurtzi west=Toruń 
+Porbandar north=Santurtzi east=Toruń south=Itaberaba west=Kahului 
+Santurtzi north=Itaberaba east=Kahului south=Porbandar west=Mississauga 
+Kahului north=Mississauga east=Porbandar south=Maddaloni west=Santurtzi 
+Mississauga east=Santurtzi south=Kahului west=Maddaloni 
+Maddaloni north=Kahului east=Mississauga south=Tsukumiura west=La_Madeleine 
+Tsukumiura north=Maddaloni 
+La_Madeleine east=Maddaloni south=Mahāsamund west=Torrelodones 
+Mahāsamund north=La_Madeleine east=Torrelodones south=Mayma west=Istok 
+Torrelodones north=Mayma east=La_Madeleine west=Mahāsamund 
+Mayma north=Mahāsamund south=Torrelodones west=Istok 
+Istok east=Mayma west=Bintulu 
+Bintulu east=Istok south=Biłgoraj west=Chachapoyas 
+Biłgoraj north=Bintulu south=Chachapoyas west=Rheda-Wiedenbrück 
+Chachapoyas north=Biłgoraj east=Bintulu south=Rheda-Wiedenbrück 
+Rheda-Wiedenbrück north=Chachapoyas east=Biłgoraj south=Kiliya west=Deçan 
+Kiliya north=Rheda-Wiedenbrück east=Deçan west=Los_Mochis 
+Deçan north=Los_Mochis east=Rheda-Wiedenbrück south=Alzira west=Kiliya 
+Los_Mochis north=Alzira east=Kiliya south=Deçan west=Chamba 
+Alzira north=Deçan east=Chamba south=Los_Mochis 
+Chamba north=Kalach-na-Donu east=Los_Mochis south=Newquay west=Alzira 
+Kalach-na-Donu south=Chamba west=Newquay 
+Newquay north=Chamba east=Kalach-na-Donu south=Slobozia west=Unaí 
+Slobozia north=Newquay south=Unaí west=Mogi_das_Cruzes 
+Unaí north=Slobozia east=Newquay south=Mogi_das_Cruzes west=Reşiţa 
+Mogi_das_Cruzes north=Unaí east=Slobozia south=Reşiţa 
+Reşiţa north=Mogi_das_Cruzes east=Unaí south=Volendam 
+Volendam north=Reşiţa east=Fraccionamiento_Real_Palmas south=Mount_Vernon west=Brent 
+Fraccionamiento_Real_Palmas north=Mount_Vernon east=Brent west=Volendam 
+Mount_Vernon north=Volendam south=Fraccionamiento_Real_Palmas 
+Brent north=Korem east=Volendam west=Fraccionamiento_Real_Palmas 
+Korem north=Karlshamn south=Brent 
+Karlshamn east=Tinnanūr south=Korem 
+Tinnanūr north=Korenovsk west=Karlshamn 
+Korenovsk north=Sarāi_Ālamgīr east=Svetlograd south=Tinnanūr west=Puqi 
+Sarāi_Ālamgīr north=Svetlograd east=Puqi south=Korenovsk 
+Svetlograd north=Puqi east=Gagarin south=Sarāi_Ālamgīr west=Korenovsk 
+Puqi north=Gagarin east=Korenovsk south=Svetlograd west=Sarāi_Ālamgīr 
+Gagarin north=São_Lourenço south=Puqi west=Svetlograd 
+São_Lourenço south=Gagarin west=Ashdod 
+Ashdod east=São_Lourenço south=Concarneau 
+Concarneau north=Ashdod east=Koelwār south=Suai 
+Koelwār east=Suai west=Concarneau 
+Suai north=Concarneau east=Praya south=Gurupi west=Koelwār 
+Praya east=Gurupi west=Suai 
+Gurupi north=Suai east=Eupen west=Praya 
+Eupen west=Gurupi 
+São_Carlos south=Einbeck 
+Einbeck north=São_Carlos 
+Pukhrāyān north=Târgu_Secuiesc south=Karlskrona west=Nowshahr 
+Târgu_Secuiesc south=Pukhrāyān west=Karlskrona 
+Karlskrona north=Pukhrāyān east=Târgu_Secuiesc 
+Nowshahr north=Mooka east=Pukhrāyān south=Barreiro_do_Jaíba west=Schofield_Barracks 
+Mooka south=Nowshahr west=Barreiro_do_Jaíba 
+Barreiro_do_Jaíba north=Nowshahr east=Mooka south=Schofield_Barracks 
+Schofield_Barracks north=Barreiro_do_Jaíba east=Nowshahr west=Nanjing 
+Nanjing north=Richmond east=Schofield_Barracks west=Bonny 
+Richmond north=Bonny south=Nanjing west=Sarzana 
+Bonny north=Sarzana east=Nanjing south=Richmond 
+Sarzana east=Richmond south=Bonny 
+Colonia_Santa_Teresa north=Charsadda east=Hājīpur south=Harar west=Fremont 
+Charsadda north=Hājīpur south=Colonia_Santa_Teresa 
+Hājīpur east=Harar south=Charsadda west=Colonia_Santa_Teresa 
+Harar north=Colonia_Santa_Teresa east=Fremont west=Hājīpur 
+Fremont north=Dyat’kovo east=Colonia_Santa_Teresa west=Harar 
+Dyat’kovo south=Fremont 
+Inver_Grove_Heights east=Shoranūr west=Qormi 
+Shoranūr north=Qormi west=Inver_Grove_Heights 
+Qormi east=Inver_Grove_Heights south=Shoranūr 
+Dhār north=Nové_Zámky south=Reynoldsburg west=Gafsa 
+Nové_Zámky north=Reynoldsburg east=Gafsa south=Dhār west=Effon_Alaiye 
+Reynoldsburg north=Dhār south=Nové_Zámky 
+Gafsa north=Effon_Alaiye east=Dhār south=Staten_Island west=Nové_Zámky 
+Effon_Alaiye north=Staten_Island east=Nové_Zámky south=Gafsa west=Dalianwan 
+Staten_Island north=Gafsa east=Dalianwan south=Effon_Alaiye 
+Dalianwan north=Rozdil’na east=Effon_Alaiye west=Staten_Island 
+Rozdil’na east=Welling south=Dalianwan 
+Welling north=Hollola east=Middletown south=Biguaçu west=Rozdil’na 
+Hollola north=Middletown south=Welling west=Biguaçu 
+Middletown south=Hollola west=Welling 
+Biguaçu north=Welling east=Hollola south=Memphis west=Neem_ka_Thana 
+Memphis north=Biguaçu south=Neem_ka_Thana west=Las_Pintas_de_Arriba 
+Neem_ka_Thana north=Memphis east=Biguaçu west=Las_Pintas_de_Arriba 
+Las_Pintas_de_Arriba north=Lokossa east=Neem_ka_Thana south=Roissy-en-Brie west=Independence 
+Lokossa north=Roissy-en-Brie east=Independence south=Las_Pintas_de_Arriba 
+Roissy-en-Brie north=Las_Pintas_de_Arriba south=Lokossa 
+Independence east=Las_Pintas_de_Arriba west=Lokossa 
+Palmaner north=Loures 
+Loures north=Lackawanna south=Palmaner 
+Lackawanna north=Hālīsahar south=Loures 
+Hālīsahar north=Qīr_Moāv east=Vangaindrano south=Lackawanna 
+Qīr_Moāv north=Vangaindrano south=Hālīsahar west=Quatre_Bornes 
+Vangaindrano east=Quatre_Bornes south=Qīr_Moāv west=Hālīsahar 
+Quatre_Bornes east=Qīr_Moāv south=Bolingbrook west=Vangaindrano 
+Bolingbrook north=Quatre_Bornes east=Campana 
+Campana north=Pokhvistnevo east=Birecik south=Oxford west=Bolingbrook 
+Pokhvistnevo north=Birecik south=Campana west=Oxford 
+Birecik east=Oxford south=Pokhvistnevo west=Campana 
+Oxford north=Campana east=Pokhvistnevo south=Ngoro west=Birecik 
+Ngoro north=Oxford west=Lebedyan’ 
+Lebedyan’ east=Ngoro 
+Santiago_Sacatepéquez north=Saint-Constant south=Kitahama 
+Saint-Constant east=Kitahama south=Santiago_Sacatepéquez 
+Kitahama north=Santiago_Sacatepéquez west=Saint-Constant 
+Shima north=Batavia 
+Batavia north=Annecy-le-Vieux south=Shima west=Höxter 
+Annecy-le-Vieux east=Höxter south=Batavia west=Chengzhong 
+Höxter east=Batavia south=Chengzhong west=Annecy-le-Vieux 
+Chengzhong north=Höxter east=Annecy-le-Vieux west=Kohāt 
+Kohāt east=Chengzhong west=DeBary 
+DeBary north=Canoga_Park east=Kohāt west=Le_Pontet 
+Canoga_Park east=Le_Pontet south=DeBary west=Munnar 
+Le_Pontet east=DeBary west=Canoga_Park 
+Munnar north=Nordhorn east=Canoga_Park south=Crucecita 
+Nordhorn north=Crucecita south=Munnar 
+Crucecita north=Munnar south=Nordhorn west=Kamensk-Shakhtinskiy 
+Kamensk-Shakhtinskiy north=Wyoming east=Crucecita west=Yanjiang 
+Wyoming north=Yanjiang east=Seaham south=Kamensk-Shakhtinskiy west=Chongqing 
+Yanjiang north=Seaham east=Kamensk-Shakhtinskiy south=Wyoming 
+Seaham north=Chongqing south=Yanjiang west=Wyoming 
+Chongqing north=Santiago_Pinotepa_Nacional east=Wyoming south=Seaham west=Bolzano 
+Santiago_Pinotepa_Nacional south=Chongqing 
+Bolzano east=Chongqing west=Ilchester 
+Ilchester east=Bolzano 
+Kochenëvo north=Santiago_de_Cao south=Monopoli west=Pavlovsk 
+Santiago_de_Cao east=Monopoli south=Kochenëvo 
+Monopoli north=Kochenëvo east=Pavlovsk west=Santiago_de_Cao 
+Pavlovsk north=Ashoknagar_Kalyangarh east=Kochenëvo south=Ząbki west=Monopoli 
+Ashoknagar_Kalyangarh north=Ząbki south=Pavlovsk west=Sokol 
+Ząbki north=Pavlovsk east=Sokol south=Ashoknagar_Kalyangarh 
+Sokol north=Pātan east=Ashoknagar_Kalyangarh west=Ząbki 
+Pātan south=Sokol west=San_José_de_las_Lajas 
+San_José_de_las_Lajas east=Pātan 
+Ongole north=Armentières south=Shirdi west=San_Pedro 
+Armentières north=Shirdi east=San_Pedro south=Ongole 
+Shirdi north=Ongole south=Armentières 
+San_Pedro north=Pudukkottai east=Ongole south=Malaut west=Armentières 
+Pudukkottai south=San_Pedro 
+Malaut north=San_Pedro 
+Bălţi east=Cadiz south=Mỹ_Tho west=Bad_Münstereifel 
+Cadiz east=Mỹ_Tho west=Bălţi 
+Mỹ_Tho north=Bălţi west=Cadiz 
+Bad_Münstereifel north=Naga east=Bălţi south=Hoyerswerda 
+Naga east=Hoyerswerda south=Bad_Münstereifel west=Fort_Gloster 
+Hoyerswerda north=Bad_Münstereifel east=Fort_Gloster south=Keratsíni west=Naga 
+Fort_Gloster north=Keratsíni east=Naga west=Hoyerswerda 
+Keratsíni north=Hoyerswerda east=Angra_dos_Reis south=Fort_Gloster west=Westland 
+Angra_dos_Reis north=Westland east=Gwadar south=Erzincan west=Keratsíni 
+Westland east=Keratsíni south=Angra_dos_Reis west=Gwadar 
+Gwadar north=Erzincan east=Westland west=Angra_dos_Reis 
+Erzincan north=Angra_dos_Reis south=Gwadar 
+Manzhouli north=Makassar east=Mīrānpur_Katra west=Bedong 
+Makassar north=Mīrānpur_Katra south=Manzhouli 
+Mīrānpur_Katra north=Bedong south=Makassar west=Manzhouli 
+Bedong east=Manzhouli south=Mīrānpur_Katra west=Wonopringgo 
+Wonopringgo north=Palmarito_Tochapán east=Bedong 
+Palmarito_Tochapán north=Elk_River south=Wonopringgo 
+Elk_River east=Canguçu south=Palmarito_Tochapán 
+Canguçu north=Moses_Lake east=Trelew west=Elk_River 
+Moses_Lake north=Trelew south=Canguçu west=Daigo 
+Trelew east=Daigo south=Moses_Lake west=Canguçu 
+Daigo north=Baku east=Moses_Lake west=Trelew 
+Baku north=Nguékhokh south=Daigo 
+Nguékhokh south=Baku west=Battaramulla_South 
+Battaramulla_South north=Talā east=Nguékhokh west=Barberà_del_Vallès 
+Talā north=Barberà_del_Vallès south=Battaramulla_South 
+Barberà_del_Vallès north=Māngrol east=Battaramulla_South south=Talā west=Valdagno 
+Māngrol north=Valdagno south=Barberà_del_Vallès west=Piastów 
+Valdagno north=Piastów east=Barberà_del_Vallès south=Māngrol 
+Piastów north=Castlereagh east=Māngrol south=Valdagno 
+Castlereagh south=Piastów west=Karangsembung 
+Karangsembung east=Castlereagh west=Chambly 
+Chambly north=Kaisarianí east=Karangsembung south=Pemangkat 
+Kaisarianí north=Pemangkat east=Gavà south=Chambly 
+Pemangkat north=Chambly south=Kaisarianí west=Gavà 
+Gavà east=Pemangkat west=Kaisarianí 
+Nenjiang north=Kaufbeuren south=Nandigāma 
+Kaufbeuren south=Nenjiang 
+Nandigāma north=Nenjiang east=Novoural’sk west=Agde 
+Novoural’sk east=Agde west=Nandigāma 
+Agde east=Nandigāma south=Meerbusch west=Novoural’sk 
+Meerbusch north=Agde east=Chihuahua west=İzmir 
+Chihuahua north=İzmir west=Meerbusch 
+İzmir north=Bela east=Meerbusch south=Chihuahua 
+Bela north=Xanxerê south=İzmir 
+Xanxerê north=Jaraguá east=Manchester south=Bela west=Iron_River 
+Jaraguá north=Manchester south=Xanxerê west=Iron_River 
+Manchester north=Iron_River south=Jaraguá west=Xanxerê 
+Iron_River east=Jaraguá south=Manchester 
+Puente_de_Ixtla north=Stillwater east=Necochea south=Pittsfield 
+Stillwater east=Necochea south=Puente_de_Ixtla 
+Necochea west=Stillwater 
+Pittsfield north=Puente_de_Ixtla south=Kuznetsk 
+Kuznetsk north=Pittsfield east=Biga 
+Biga west=Kuznetsk 
+Fernando_de_la_Mora north=Wilmette east=Sesvete south=Winter_Springs 
+Wilmette north=Sesvete south=Fernando_de_la_Mora west=Winter_Springs 
+Sesvete east=Winter_Springs south=Wilmette west=Fernando_de_la_Mora 
+Winter_Springs north=Fernando_de_la_Mora east=Wilmette west=Sesvete 
+Zahedan north=South_Boston east=Pine_Bluff south=Dal’nerechensk west=Talas 
+South_Boston north=Pine_Bluff south=Zahedan west=Dal’nerechensk 
+Pine_Bluff north=Dal’nerechensk south=South_Boston west=Zahedan 
+Dal’nerechensk north=Zahedan east=South_Boston south=Pine_Bluff 
+Talas north=Rāmgarh east=Zahedan south=Dalandzadgad 
+Rāmgarh south=Talas 
+Dalandzadgad north=Talas west=Holguín 
+Holguín east=Dalandzadgad south=Curitibanos 
+Curitibanos north=Holguín east=Orenburg south=Siloam_Springs 
+Orenburg north=Siloam_Springs east=Al_‘Ayzarīyah south=Bellshill west=Curitibanos 
+Siloam_Springs north=Curitibanos east=Al_‘Ayzarīyah south=Orenburg 
+Al_‘Ayzarīyah north=Bellshill east=Santa_Clarita south=Cambre west=Siloam_Springs 
+Bellshill north=Orenburg south=Al_‘Ayzarīyah west=Santa_Clarita 
+Santa_Clarita east=Bellshill west=Al_‘Ayzarīyah 
+Cambre north=Al_‘Ayzarīyah east=Chinnachowk south=Río_Segundo 
+Chinnachowk west=Cambre 
+Río_Segundo north=Cambre east=Sidi_Bennour south=Wobkent 
+Sidi_Bennour north=Wobkent east=Mbeya west=Río_Segundo 
+Wobkent north=Río_Segundo east=Mbeya south=Sidi_Bennour west=Maracena 
+Mbeya north=Maracena east=Kebomas west=Wobkent 
+Maracena north=Kebomas east=Wobkent south=Mbeya west=Doha 
+Kebomas north=Doha south=Maracena west=Mbeya 
+Doha east=Maracena south=Kebomas west=Tzaneen 
+Tzaneen east=Doha south=Albstadt 
+Albstadt north=Tzaneen east=Leek south=La_Habana_Vieja 
+Leek south=La_Habana_Vieja west=Albstadt 
+La_Habana_Vieja north=Leek south=Sur west=Colombo 
+Sur north=La_Habana_Vieja east=Colombo west=Four_Corners 
+Colombo north=Four_Corners east=La_Habana_Vieja west=Sur 
+Four_Corners east=Sur south=Colombo west=Punta_Arenas 
+Punta_Arenas north=Basi east=Four_Corners south=Georgetown 
+Basi north=Georgetown east=Karatau south=Punta_Arenas west=Bururi 
+Georgetown north=Punta_Arenas south=Basi west=Karatau 
+Karatau north=Bururi east=Georgetown south=Bang_Rakam west=Basi 
+Bururi east=Basi south=Karatau west=Bang_Rakam 
+Bang_Rakam north=Karatau east=Bururi south=Faro 
+Faro north=Bang_Rakam west=Kingsport 
+Kingsport east=Faro south=Chandler 
+Chandler north=Kingsport east=Rādhan west=Shimo-furano 
+Rādhan west=Chandler 
+Shimo-furano north=Athens east=Chandler 
+Athens north=La_Providencia_Siglo_XXI south=Shimo-furano 
+La_Providencia_Siglo_XXI north=Binjai south=Athens 
+Binjai north=Volgodonsk south=La_Providencia_Siglo_XXI 
+Volgodonsk south=Binjai west=Smach_Mean_Chey 
+Smach_Mean_Chey east=Volgodonsk south=Puerto_Maldonado west=Wijk_bij_Duurstede 
+Puerto_Maldonado north=Smach_Mean_Chey east=Wijk_bij_Duurstede south=Dhaurahra west=Bamusso 
+Wijk_bij_Duurstede east=Smach_Mean_Chey west=Puerto_Maldonado 
+Dhaurahra north=Puerto_Maldonado east=Bamusso south=Figueres 
+Bamusso east=Puerto_Maldonado south=Figueres west=Dhaurahra 
+Figueres north=Bamusso south=Pandi 
+Pandi north=Figueres west=Montelíbano 
+Montelíbano east=Pandi south=Hāthras 
+Hāthras north=Montelíbano east=Cueto west=Norrtälje 
+Cueto west=Hāthras 
+Norrtälje east=Hāthras west=San_Nicolás_de_los_Arroyos 
+San_Nicolás_de_los_Arroyos east=Norrtälje west=Frankston_East 
+Frankston_East north=El_Bolsón east=San_Nicolás_de_los_Arroyos 
+El_Bolsón east=Hānsi south=Frankston_East west=Seregno 
+Hānsi east=Seregno west=El_Bolsón 
+Seregno east=El_Bolsón south=Kilifi west=Hānsi 
+Kilifi north=Seregno 
+Bezhetsk north=Karasu east=Warmbaths south=Nyūzen 
+Karasu north=Warmbaths east=Nyūzen south=Bezhetsk west=‘Ar‘ar 
+Warmbaths south=Karasu west=Bezhetsk 
+Nyūzen north=Bezhetsk west=Karasu 
+‘Ar‘ar north=Ust-Kamenogorsk east=Karasu west=Frenda 
+Ust-Kamenogorsk south=‘Ar‘ar west=Frenda 
+Frenda east=Ust-Kamenogorsk south=Damietta 
+Damietta north=Frenda east=Gornyak 
+Gornyak west=Damietta 
+Rotenburg north=Mińsk_Mazowiecki east=North_Massapequa south=Driyorejo west=Tarko-Sale 
+Mińsk_Mazowiecki north=North_Massapequa east=Driyorejo south=Rotenburg 
+North_Massapequa north=Driyorejo east=Tarko-Sale south=Mińsk_Mazowiecki west=Rotenburg 
+Driyorejo north=Rotenburg east=Tarko-Sale south=North_Massapequa west=Mińsk_Mazowiecki 
+Tarko-Sale east=Rotenburg west=Driyorejo 
+Clichy-sous-Bois north=Gutao east=Oudtshoorn 
+Gutao east=Oudtshoorn south=Clichy-sous-Bois west=Palo_Alto 
+Oudtshoorn east=Palo_Alto south=Nytva west=Gutao 
+Palo_Alto east=Gutao west=Oudtshoorn 
+Nytva north=Oudtshoorn east=Calw west=Tondano 
+Calw east=Tondano south=Kaesŏng west=Nytva 
+Tondano north=Kaesŏng east=Nytva south=Wellingborough west=Calw 
+Kaesŏng north=Calw south=Tondano 
+Wellingborough north=Tondano south=Aki 
+Aki north=Wellingborough 
+Ipil east=Prichard 
+Prichard north=Bronkhorstspruit east=Oberwinterthur_(Kreis_2) south=Danville west=Ipil 
+Bronkhorstspruit north=Oberwinterthur_(Kreis_2) east=Danville south=Prichard 
+Oberwinterthur_(Kreis_2) north=Danville east=Cudahy south=Bronkhorstspruit west=Prichard 
+Danville north=Prichard south=Oberwinterthur_(Kreis_2) west=Bronkhorstspruit 
+Cudahy east=Levin west=Oberwinterthur_(Kreis_2) 
+Levin north=Gaza south=Vadlapūdi west=Cudahy 
+Gaza north=Vadlapūdi south=Levin 
+Vadlapūdi north=Levin south=Gaza 
+Huauchinango north=Pelabuhanratu east=Bryan 
+Pelabuhanratu north=Bryan east=Yingshang_Chengguanzhen south=Huauchinango 
+Bryan north=Yingshang_Chengguanzhen south=Pelabuhanratu west=Huauchinango 
+Yingshang_Chengguanzhen east=Dalaman south=Bryan west=Pelabuhanratu 
+Dalaman west=Yingshang_Chengguanzhen 
+Lida west=Madaoua 
+Madaoua north=Illzach east=Lida south=Rahachow 
+Illzach east=Rahachow south=Madaoua 
+Rahachow north=Madaoua south=Cicero west=Illzach 
+Cicero north=Rahachow east=Jeffersonville west=Nagda 
+Jeffersonville north=Nagda south=Middleton west=Cicero 
+Nagda north=Middleton east=Cicero south=Jeffersonville west=Burnie 
+Middleton north=Jeffersonville south=Nagda 
+Burnie east=Nagda west=Apostolove 
+Apostolove north=Sidi_Mérouane east=Burnie west=Suluktu 
+Sidi_Mérouane east=Suluktu south=Apostolove 
+Suluktu north=Los_Llanos_de_Aridane east=Apostolove south=Mogok west=Sidi_Mérouane 
+Los_Llanos_de_Aridane south=Suluktu west=Mogok 
+Mogok north=Suluktu east=Los_Llanos_de_Aridane 
+Yangp'yŏng north=Kanoya east=Nadi west=Simanggang 
+Kanoya north=Nadi east=Simanggang south=Yangp'yŏng 
+Nadi south=Kanoya west=Yangp'yŏng 
+Simanggang east=Yangp'yŏng south=Maiduguri west=Kanoya 
+Maiduguri north=Simanggang 
+Martos south=Bor west=Gloucester 
+Bor north=Martos south=Gloucester 
+Gloucester north=Bor east=Martos west=Shahrud 
+Shahrud east=Gloucester south=Pilar 
+Pilar north=Shahrud east=Sathyamangalam south=Kur’yanovo 
+Sathyamangalam south=Kur’yanovo west=Pilar 
+Kur’yanovo north=Sathyamangalam east=Senhor_do_Bonfim south=Al_Mishkhāb 
+Senhor_do_Bonfim north=Al_Mishkhāb south=Xucheng west=Kur’yanovo 
+Al_Mishkhāb north=Kur’yanovo east=Xucheng south=Senhor_do_Bonfim 
+Xucheng north=Senhor_do_Bonfim west=Al_Mishkhāb 
+Tynda north=Marau 
+Marau north=Wheaton south=Tynda west=Barreirinhas 
+Wheaton east=Barreirinhas south=Marau 
+Barreirinhas east=Marau west=Wheaton 
+Paravūr north=Culver_City east=Fuyo west=Wa 
+Culver_City north=Fuyo south=Paravūr 
+Fuyo east=Wa south=Culver_City west=Paravūr 
+Wa north=Guarenas east=Paravūr south=Krems_an_der_Donau west=Fuyo 
+Guarenas east=Krems_an_der_Donau south=Wa west=Saint-Médard-en-Jalles 
+Krems_an_der_Donau north=Wa south=Saint-Médard-en-Jalles west=Guarenas 
+Saint-Médard-en-Jalles north=Krems_an_der_Donau east=Guarenas 
+Tutamandahostel north=Gembu south=Rosemount west=Asyūţ 
+Gembu south=Tutamandahostel west=Rosemount 
+Rosemount north=Tutamandahostel east=Gembu 
+Asyūţ north=Karonga east=Tutamandahostel 
+Karonga south=Asyūţ west=Székesfehérvár 
+Székesfehérvár north=Gonesse east=Karonga 
+Gonesse east=Aberystwyth south=Székesfehérvár 
+Aberystwyth east=Dahegām south=Esztergom west=Gonesse 
+Dahegām north=Esztergom east=Baihar south=Duncanville west=Aberystwyth 
+Esztergom north=Aberystwyth south=Dahegām 
+Baihar north=Duncanville west=Dahegām 
+Duncanville north=Dahegām east=Saginaw south=Baihar west=Blumenau 
+Saginaw north=Blumenau south=As_Salţ west=Duncanville 
+Blumenau north=As_Salţ east=Duncanville south=Saginaw 
+As_Salţ north=Saginaw east=Chinautla south=Blumenau west=Grugliasco 
+Chinautla east=Grugliasco west=As_Salţ 
+Grugliasco north=Al-Hamdaniya east=As_Salţ south=Aïn_el_Bya west=Chinautla 
+Al-Hamdaniya north=Aïn_el_Bya east=Ad_Douiem south=Grugliasco 
+Aïn_el_Bya north=Grugliasco south=Al-Hamdaniya west=Ad_Douiem 
+Ad_Douiem north=Donauwörth east=Aïn_el_Bya south=Wrocław west=Al-Hamdaniya 
+Donauwörth north=Wrocław east=Besbes south=Ad_Douiem west=Lobito 
+Wrocław north=Ad_Douiem east=Besbes south=Donauwörth west=Lobito 
+Besbes south=Lobito west=Wrocław 
+Lobito north=Besbes east=Wrocław 
+Kawm_Ḩamādah north=Fili east=Hindupur south=Bassum west=Utrecht 
+Fili north=Hindupur south=Kawm_Ḩamādah 
+Hindupur north=Bassum south=Fili west=Kawm_Ḩamādah 
+Bassum north=Kawm_Ḩamādah south=Hindupur west=Utrecht 
+Utrecht north=Cajamar east=Bassum west=Saint-Gratien 
+Cajamar east=Saint-Gratien south=Utrecht 
+Saint-Gratien east=Utrecht west=Cajamar 
+Tbêng_Méanchey north=Barbil south=Tuscaloosa 
+Barbil north=Tuscaloosa east=Qaraçuxur south=Tbêng_Méanchey 
+Tuscaloosa north=Tbêng_Méanchey south=Barbil 
+Qaraçuxur north=McAlester west=Barbil 
+McAlester north=Halstenbek south=Qaraçuxur west=Gorzów_Wielkopolski 
+Halstenbek south=McAlester west=Gorzów_Wielkopolski 
+Gorzów_Wielkopolski north=Maholi east=Halstenbek south=Luts’k west=Calle_Blancos 
+Maholi north=Luts’k east=Calle_Blancos south=Gorzów_Wielkopolski west=Wittenau 
+Luts’k north=Gorzów_Wielkopolski east=Calle_Blancos south=Maholi 
+Calle_Blancos north=Wittenau east=Gorzów_Wielkopolski south=Concord west=Luts’k 
+Wittenau east=Maholi south=Calle_Blancos 
+Concord north=Calle_Blancos south=Maidstone west=Ramada 
+Maidstone north=Concord west=Ramada 
+Ramada north=Skellefteå east=Maidstone south=Mailsi west=Campinas 
+Skellefteå east=Mailsi south=Ramada 
+Mailsi north=Ramada south=Campinas west=Skellefteå 
+Campinas north=Mailsi east=Ramada 
+Rivière-du-Loup east=Tezontepec_de_Aldama 
+Tezontepec_de_Aldama north=Puerto_Madryn south=Álvaro_Obregón west=Rivière-du-Loup 
+Puerto_Madryn north=Álvaro_Obregón south=Tezontepec_de_Aldama 
+Álvaro_Obregón north=Tezontepec_de_Aldama east=Spokane south=Puerto_Madryn west=Berkel_en_Rodenrijs 
+Spokane north=Berkel_en_Rodenrijs south=Illela west=Álvaro_Obregón 
+Berkel_en_Rodenrijs east=Álvaro_Obregón south=Spokane 
+Illela north=Spokane east=Lanzhou 
+Lanzhou north=Kāmārhāti west=Illela 
+Kāmārhāti south=Lanzhou west=Ilinden 
+Ilinden north=Hoover east=Kāmārhāti 
+Hoover east=Bergisch_Gladbach south=Ilinden west=Hihyā 
+Bergisch_Gladbach west=Hoover 
+Hihyā east=Hoover south=Bohumín 
+Bohumín north=Hihyā east=San_Paolo south=Assis west=Álamo 
+San_Paolo north=Assis west=Bohumín 
+Assis north=Bohumín east=Álamo south=San_Paolo 
+Álamo east=Bohumín south=Kislovodsk west=Assis 
+Kislovodsk north=Álamo east=Taunton south=Sarkand 
+Taunton north=Sarkand east=Nanzhang_Chengguanzhen west=Kislovodsk 
+Sarkand north=Kislovodsk south=Taunton 
+Nanzhang_Chengguanzhen north=Wamba west=Taunton 
+Wamba north=Kalachinsk south=Nanzhang_Chengguanzhen 
+Kalachinsk east=Okhtyrka south=Wamba west=Jaguarari 
+Okhtyrka east=Jaguarari south=Sandakan west=Kalachinsk 
+Jaguarari east=Kalachinsk west=Okhtyrka 
+Sandakan north=Okhtyrka 
+Hiddenhausen east=Villa_María south=Goiânia 
+Villa_María north=Goiânia east=Tamiami south=Treviso west=Hiddenhausen 
+Goiânia north=Hiddenhausen east=Tamiami south=Villa_María west=Treviso 
+Tamiami north=Treviso south=Chita west=Goiânia 
+Treviso north=Villa_María east=Goiânia south=Tamiami west=Chita 
+Chita north=Tamiami east=Treviso west=Nandaime 
+Nandaime east=Chita south=Néa_Erythraía 
+Néa_Erythraía north=Nandaime west=El_Khroub 
+El_Khroub east=Néa_Erythraía south=Salzwedel west=Wuppertal 
+Salzwedel north=El_Khroub east=Wuppertal west=Shido 
+Wuppertal north=Shido east=El_Khroub west=Salzwedel 
+Shido north=Port_Hedland east=Salzwedel south=Wuppertal 
+Port_Hedland north=Mehekar east=Conceição_da_Barra south=Shido 
+Mehekar east=Conceição_da_Barra south=Port_Hedland 
+Conceição_da_Barra north=Engelskirchen east=Willenhall south=Zug west=Mehekar 
+Engelskirchen north=Willenhall south=Conceição_da_Barra 
+Willenhall north=Zug south=Engelskirchen west=Conceição_da_Barra 
+Zug north=Conceição_da_Barra south=Willenhall 
+Pilsen north=Wānkāner east=Mahīshādal south=San_Ramón_de_la_Nueva_Orán 
+Wānkāner north=Mahīshādal east=San_Ramón_de_la_Nueva_Orán south=Pilsen west=Dimāpur 
+Mahīshādal east=San_Ramón_de_la_Nueva_Orán south=Wānkāner west=Pilsen 
+San_Ramón_de_la_Nueva_Orán north=Pilsen east=Dimāpur south=Kibungo west=Mahīshādal 
+Dimāpur north=Kibungo east=Wānkāner south=Santa_Catarina west=San_Ramón_de_la_Nueva_Orán 
+Kibungo north=San_Ramón_de_la_Nueva_Orán east=Santa_Catarina south=Dimāpur west=Chokwé 
+Santa_Catarina north=Dimāpur east=Chokwé west=Kibungo 
+Chokwé east=Kibungo west=Santa_Catarina 
+Cotia north=Samborondón west=Nyandoma 
+Samborondón north=Nyandoma south=Cotia west=Bitola 
+Nyandoma north=Bitola east=Cotia south=Samborondón 
+Bitola east=Samborondón south=Nyandoma west=Umreth 
+Umreth north=Corinto east=Bitola 
+Corinto east=Coppell south=Umreth 
+Coppell west=Corinto 
+Mutare west=Tuluá 
+Tuluá north=Dawei east=Mutare south=Tallmadge 
+Dawei south=Tuluá 
+Tallmadge north=Tuluá west=Arsen’yev 
+Arsen’yev north=Suwałki east=Tallmadge south=Farīdābād west=Filderstadt 
+Suwałki north=Farīdābād east=Filderstadt south=Arsen’yev 
+Farīdābād north=Arsen’yev south=Suwałki west=Filderstadt 
+Filderstadt north=Coeur_d'Alene east=Farīdābād south=Safi west=Suwałki 
+Coeur_d'Alene north=Safi east=Mainpuri south=Filderstadt west=Damboa 
+Safi north=Filderstadt east=Mainpuri south=Coeur_d'Alene 
+Mainpuri north=Damboa south=Ed_Damer west=Safi 
+Damboa east=Coeur_d'Alene south=Mainpuri 
+Ed_Damer north=Mainpuri 
+Cuito west=Nzega 
+Nzega east=Cuito west=Loos 
+Loos north=Eslöv east=Nzega south=Houma 
+Eslöv north=Houma south=Loos 
+Houma north=Loos east=Genève south=Eslöv 
+Genève north=Hongjiang east=Edremit south=Kitui west=Houma 
+Hongjiang north=Edremit south=Genève west=Kitui 
+Edremit east=Kitui south=Hongjiang west=Genève 
+Kitui north=Genève east=Hongjiang west=Edremit 
+Sivaganga east=Yuxi south=Kaya west=Sleman 
+Yuxi east=Kaya west=Sivaganga 
+Kaya north=Sivaganga east=Sleman south=Radviliskis west=Yuxi 
+Sleman east=Sivaganga south=Radviliskis west=Kaya 
+Radviliskis north=Sleman south=Hondo 
+Hondo north=Radviliskis east=Limoges south=Horlivka 
+Limoges west=Hondo 
+Horlivka north=Hondo east=Zhumadian south=Yancheng 
+Zhumadian south=Yancheng west=Horlivka 
+Yancheng north=Zhumadian south=Anzhero-Sudzhensk west=Jasaan 
+Anzhero-Sudzhensk north=Yancheng south=Jasaan 
+Jasaan north=Anzhero-Sudzhensk east=Yancheng south=Mendip 
+Mendip north=Jasaan east=Auchi south=Sungai_Besar 
+Auchi north=Sungai_Besar west=Mendip 
+Sungai_Besar north=Mendip south=Auchi west=Binche 
+Binche north=Az_Zintān east=Sungai_Besar west=Abqaiq 
+Az_Zintān east=Abqaiq south=Binche 
+Abqaiq north=Denderleeuw east=Binche west=Az_Zintān 
+Denderleeuw south=Abqaiq west=Cotoca 
+Cotoca north=Cerquilho east=Denderleeuw west=Surubim 
+Cerquilho south=Cotoca 
+Surubim north=Brandýs_nad_Labem-Stará_Boleslav east=Cotoca west=Usulután 
+Brandýs_nad_Labem-Stará_Boleslav east=Usulután south=Surubim west=Forster 
+Usulután north=Forster east=Surubim south=Dumbéa west=Brandýs_nad_Labem-Stará_Boleslav 
+Forster east=Brandýs_nad_Labem-Stará_Boleslav south=Usulután 
+Dumbéa north=Usulután east=Mothīhāri 
+Mothīhāri north=Monteros east=Shanghai west=Dumbéa 
+Monteros north=Shanghai east=Rānāvāv south=Mothīhāri 
+Shanghai south=Monteros west=Mothīhāri 
+Rānāvāv north=Chodavaram west=Monteros 
+Chodavaram north=Ajman south=Rānāvāv west=Green 
+Ajman south=Chodavaram west=Green 
+Green north=Miyoshi east=Ajman west=Otegen_Batyra 
+Miyoshi north=Otegen_Batyra south=Green 
+Otegen_Batyra north=Surkhpur east=Green south=Miyoshi west=Bagé 
+Surkhpur north=Bagé south=Otegen_Batyra west=Freising 
+Bagé north=Freising east=Otegen_Batyra south=Surkhpur 
+Freising north=Nedroma east=Surkhpur south=Bagé 
+Nedroma east=Lodeynoye_Pole south=Freising 
+Lodeynoye_Pole east=Zaporizhzhya west=Nedroma 
+Zaporizhzhya north=Glen_Ellyn east=Château-Thierry south=Wāshīm west=Lodeynoye_Pole 
+Glen_Ellyn east=Château-Thierry south=Zaporizhzhya west=Wāshīm 
+Château-Thierry north=Wāshīm west=Glen_Ellyn 
+Wāshīm north=Zaporizhzhya east=Glen_Ellyn south=Château-Thierry west=Noginsk 
+Noginsk north=San_Pedro east=Wāshīm 
+San_Pedro south=Noginsk 
+Rio_Brilhante south=Além_Paraíba west=Anthem 
+Além_Paraíba north=Rio_Brilhante east=Anthem west=Corcoran 
+Anthem north=Corcoran east=Rio_Brilhante south=Haeju west=Além_Paraíba 
+Corcoran east=Além_Paraíba south=Anthem 
+Haeju north=Anthem west=Yuen_Long_Kau_Hui 
+Yuen_Long_Kau_Hui north=Lee's_Summit east=Haeju 
+Lee's_Summit south=Yuen_Long_Kau_Hui west=Bordj_Bou_Arreridj 
+Bordj_Bou_Arreridj north=Zhenjiang east=Lee's_Summit 
+Zhenjiang east=Raisen south=Bordj_Bou_Arreridj west=Boyarka 
+Raisen north=Boyarka east=Frisco west=Zhenjiang 
+Boyarka east=Zhenjiang south=Raisen west=Frisco 
+Frisco east=Boyarka south=Cuauhtémoc west=Raisen 
+Cuauhtémoc north=Frisco east=Jauharābād west=Peterborough 
+Jauharābād north=Peterborough east=Aylesbury south=Vršac west=Cuauhtémoc 
+Peterborough north=Aylesbury east=Cuauhtémoc south=Jauharābād 
+Aylesbury north=Vršac south=Peterborough west=Jauharābād 
+Vršac north=Jauharābād east=Mulgund south=Aylesbury 
+Mulgund south=Mansfield west=Vršac 
+Mansfield north=Mulgund south=Ninove west=Bukavu 
+Ninove north=Mansfield east=Bukavu south=Tunja west=Kŭlob 
+Bukavu east=Mansfield west=Ninove 
+Tunja north=Ninove east=Kŭlob west=Tando_Jām 
+Kŭlob north=Tando_Jām east=Ninove west=Tunja 
+Tando_Jām east=Tunja south=Kŭlob 
+Neftekamsk north=Xinmin east=Jodhpur south=Puttūr 
+Xinmin south=Neftekamsk west=Jodhpur 
+Jodhpur north=Puttūr east=Xinmin south=Ceará_Mirim west=Neftekamsk 
+Puttūr north=Neftekamsk east=Ceará_Mirim south=Jodhpur west=Lonavla 
+Ceará_Mirim north=Jodhpur west=Puttūr 
+Lonavla east=Puttūr south=Kunming west=Novi 
+Kunming north=Lonavla east=Novi south=Williamstown west=Lianzhou 
+Novi north=Williamstown east=Lonavla south=Lianzhou west=Kunming 
+Williamstown north=Kunming south=Novi west=Lianzhou 
+Lianzhou north=Novi east=Williamstown west=Labé 
+Labé north=Ituiutaba east=Lianzhou 
+Ituiutaba north=Retiro east=Sertolovo south=Labé 
+Retiro east=Sertolovo south=Ituiutaba 
+Sertolovo south=Bhindār west=Retiro 
+Bhindār north=Sertolovo east=Granadilla_de_Abona south=Banamba 
+Granadilla_de_Abona north=Banamba east=Crateús south=Mar’ino west=Bhindār 
+Banamba north=Bhindār east=Crateús south=Granadilla_de_Abona west=Mar’ino 
+Crateús east=Mar’ino south=Tekstil’shchiki west=Banamba 
+Mar’ino north=Granadilla_de_Abona east=Banamba west=Crateús 
+Tekstil’shchiki north=Crateús west=South_Yuba_City 
+South_Yuba_City north=Cananea east=Tekstil’shchiki 
+Cananea south=South_Yuba_City west=Ciutadella 
+Ciutadella east=Cananea 
+Kōnan north=Gatineau south=Xalapa_de_Enríquez west=Santee 
+Gatineau east=Xalapa_de_Enríquez south=Kōnan west=Santee 
+Xalapa_de_Enríquez north=Kōnan south=Santee west=Gatineau 
+Santee north=Xalapa_de_Enríquez east=Gatineau south=Koło 
+Koło north=Santee east=Svetlyy west=Dubrājpur 
+Svetlyy east=Dubrājpur west=Koło 
+Dubrājpur north=Dhaulpur east=Koło west=Svetlyy 
+Dhaulpur north=Urus-Martan south=Dubrājpur west=Taishan 
+Urus-Martan south=Dhaulpur west=Taishan 
+Taishan east=Urus-Martan south=Sorgues 
+Sorgues north=Taishan east=Świdnik west=Mūl 
+Świdnik north=Mūl east=Bayaguana south=Koesan west=Sorgues 
+Mūl east=Sorgues south=Świdnik 
+Bayaguana north=Koesan east=Mehendiganj south=Akçakale west=Świdnik 
+Koesan north=Świdnik east=Mehendiganj south=Bayaguana 
+Mehendiganj north=Akçakale east=Snezhinsk west=Koesan 
+Akçakale north=Bayaguana east=Snezhinsk south=Mehendiganj west=Příbram 
+Snezhinsk north=Příbram east=Dhāmnod south=Saratov west=Akçakale 
+Příbram east=Akçakale south=Snezhinsk 
+Dhāmnod north=Saratov south=Radzyń_Podlaski west=Snezhinsk 
+Saratov north=Snezhinsk east=Radzyń_Podlaski south=Dhāmnod 
+Radzyń_Podlaski north=Dhāmnod east=I‘zāz west=Saratov 
+I‘zāz east=Syke west=Radzyń_Podlaski 
+Syke east=Sibut south=Rāvar west=I‘zāz 
+Sibut north=Rāvar west=Syke 
+Rāvar north=Syke east=Ciudad_Frontera south=Sibut west=Blansko 
+Ciudad_Frontera south=Blansko west=Rāvar 
+Blansko north=Ciudad_Frontera east=Rāvar south=Birmingham 
+Birmingham north=Blansko south=São_Gonçalo_do_Sapucaí 
+São_Gonçalo_do_Sapucaí north=Birmingham east=Kimje 
+Kimje east=Günzburg south=Resplendor west=São_Gonçalo_do_Sapucaí 
+Günzburg north=Resplendor east=güngören_merter south=Makó west=Kimje 
+Resplendor north=Kimje south=Günzburg west=güngören_merter 
+güngören_merter east=Resplendor west=Günzburg 
+Makó north=Günzburg west=Crimmitschau 
+Crimmitschau east=Makó south=Gumel west=Old_City 
+Gumel north=Crimmitschau east=Old_City south=Wels 
+Old_City east=Crimmitschau south=Wels west=Gumel 
+Wels north=Old_City east=Didim south=Cosamaloapan_de_Carpio 
+Didim east=Cosamaloapan_de_Carpio west=Wels 
+Cosamaloapan_de_Carpio north=Wels east=Morton west=Didim 
+Morton north=Huitzuco_de_los_Figueroa east=Sokol’niki west=Cosamaloapan_de_Carpio 
+Huitzuco_de_los_Figueroa east=Sokol’niki south=Morton 
+Sokol’niki east=Jinhua west=Huitzuco_de_los_Figueroa 
+Jinhua south=Arsk west=Sokol’niki 
+Arsk north=Jinhua east=Palm_Desert west=Manresa 
+Palm_Desert west=Arsk 
+Manresa north=Meihekou east=Arsk west=Horodok 
+Meihekou north=Horodok east=Gangāpur south=Manresa 
+Horodok north=Gangāpur east=Manresa south=Meihekou 
+Gangāpur east=Jaguaruana south=Horodok west=Meihekou 
+Jaguaruana east=Arteixo west=Gangāpur 
+Arteixo north=Loughborough east=Gannan west=Jaguaruana 
+Loughborough north=Gannan south=Arteixo 
+Gannan north=Janakpur south=Loughborough west=Arteixo 
+Janakpur north=Salamanca south=Gannan west=Sundargarh 
+Salamanca north=Sundargarh east=Mastic south=Janakpur 
+Sundargarh east=Janakpur south=Salamanca 
+Mastic east=Móstoles south=Wejherowo west=Salamanca 
+Móstoles north=Wejherowo east=Novoyavorivs'k south=Saulgau west=Mastic 
+Wejherowo north=Mastic east=Novoyavorivs'k south=Móstoles 
+Novoyavorivs'k north=Saulgau west=Wejherowo 
+Saulgau north=Móstoles south=Novoyavorivs'k 
+Zafra east=Marseille_13 south=Pinellas_Park west=Bom_Despacho 
+Marseille_13 east=Pinellas_Park south=Bom_Despacho west=Zafra 
+Pinellas_Park north=Zafra east=Bom_Despacho west=Marseille_13 
+Bom_Despacho north=Marseille_13 east=Zafra south=Dhūri west=Pinellas_Park 
+Dhūri north=Bom_Despacho east=Temirtau south=Kohror_Pakka west=Sihorā 
+Temirtau east=Kohror_Pakka west=Dhūri 
+Kohror_Pakka north=Dhūri south=Sihorā west=Temirtau 
+Sihorā north=Kohror_Pakka east=Dhūri south=Dudinka west=Palikir_-_National_Government_Center 
+Dudinka north=Sihorā south=Palikir_-_National_Government_Center west=Ciampino 
+Palikir_-_National_Government_Center north=Dudinka east=Sihorā west=Ciampino 
+Ciampino east=Palikir_-_National_Government_Center west=Vera_Cruz 
+Vera_Cruz north=Pawtucket east=Ciampino south=Yellandu 
+Pawtucket east=Yellandu south=Vera_Cruz 
+Yellandu north=Vera_Cruz west=Pawtucket 
+Tönisvorst south=Melbourne west=South_Shields 
+Melbourne north=Tönisvorst west=South_Shields 
+South_Shields north=Kawanoechō east=Melbourne south=Cícero_Dantas west=Cabreúva 
+Kawanoechō north=Cícero_Dantas south=South_Shields 
+Cícero_Dantas north=South_Shields south=Kawanoechō 
+Cabreúva east=South_Shields south=Manjeri 
+Manjeri north=Cabreúva west=Mau_Aimma 
+Mau_Aimma north=Puerto_Aisén east=Manjeri 
+Puerto_Aisén north=Jaipur south=Mau_Aimma 
+Jaipur north=Mianyang east=Hamakita south=Puerto_Aisén west=Haslett 
+Mianyang north=Hamakita east=Haslett south=Jaipur 
+Hamakita north=Haslett east=Quibdó south=Mianyang west=Jaipur 
+Haslett north=Quibdó east=Jaipur south=Hamakita west=Mianyang 
+Quibdó north=Mérignac south=Haslett west=Hamakita 
+Mérignac north=Aden south=Quibdó 
+Aden south=Mérignac 
+Eppelborn north=Krosno east=Casamassima south=Botolan 
+Krosno south=Eppelborn west=Casamassima 
+Casamassima east=Krosno south=Botolan west=Eppelborn 
+Botolan north=Casamassima south=Rotselaar 
+Rotselaar north=Botolan south=Shadrinsk 
+Shadrinsk north=Rotselaar east=Katsuta south=Gorinchem 
+Katsuta north=Gorinchem west=Shadrinsk 
+Gorinchem north=Shadrinsk east=Castelló_de_la_Plana south=Katsuta 
+Castelló_de_la_Plana south=Morwa west=Gorinchem 
+Morwa north=Castelló_de_la_Plana 
+Lahti north=Tokorozawa east=Walsall 
+Tokorozawa south=Lahti west=Walsall 
+Walsall north=Mezhdurechensk east=Tokorozawa west=Lahti 
+Mezhdurechensk north=Halle_Neustadt east=Ghormach south=Walsall 
+Halle_Neustadt east=Ghormach south=Mezhdurechensk west=Sarandi 
+Ghormach north=Sarandi south=Malingao west=Halle_Neustadt 
+Sarandi north=Malingao east=Halle_Neustadt south=Ghormach 
+Malingao north=Ghormach south=Sarandi 
+Prigen north=Frameries west=Mahajanga 
+Frameries south=Prigen 
+Mahajanga north=Kuju east=Prigen 
+Kuju east=Baden-Baden south=Mahajanga west=Cayenne 
+Baden-Baden north=Cayenne east=Bcharré west=Kuju 
+Cayenne east=Kuju south=Baden-Baden west=Bcharré 
+Bcharré north=Piñas east=Cayenne south=Vilalba west=Baden-Baden 
+Piñas north=Vilalba south=Bcharré 
+Vilalba north=Bcharré south=Piñas west=Sāyla 
+Sāyla east=Vilalba west=Böblingen 
+Böblingen east=Sāyla west=Ar_Rumaythīyah 
+Ar_Rumaythīyah north=Middleburg_Heights east=Böblingen 
+Middleburg_Heights east=Fürth south=Ar_Rumaythīyah west=Las_Animas 
+Fürth north=Las_Animas west=Middleburg_Heights 
+Las_Animas north=Abilene east=Middleburg_Heights south=Fürth west=Gamla_Uppsala 
+Abilene north=Gamla_Uppsala east=Sahaspur south=Las_Animas west=Pamulang 
+Gamla_Uppsala east=Las_Animas south=Abilene west=Sahaspur 
+Sahaspur north=Pamulang east=Gamla_Uppsala south=Caieiras west=Abilene 
+Pamulang north=Caieiras east=Abilene south=Sahaspur west=Mirandopólis 
+Caieiras north=Sahaspur east=Mirandopólis south=Pamulang west=Thessaloníki 
+Mirandopólis north=Thessaloníki east=Pamulang south=Sarıkamış west=Caieiras 
+Thessaloníki north=Sarıkamış east=Caieiras south=Mirandopólis 
+Sarıkamış north=Mirandopólis south=Thessaloníki 
+Kemrī north=Doba 
+Doba east=Tarragona south=Kemrī west=Tripoli 
+Tarragona east=Tripoli west=Doba 
+Tripoli east=Doba south=Iturama west=Tarragona 
+Iturama north=Tripoli south=Donskoye 
+Donskoye north=Iturama east=Jocotepec south=Obita west=Siverek 
+Jocotepec west=Donskoye 
+Obita north=Donskoye east=Siverek 
+Siverek north=Krasnoarmeysk east=Donskoye south=Makumbako west=Obita 
+Krasnoarmeysk north=Makumbako south=Siverek west=Candler-McAfee 
+Makumbako north=Siverek east=Candler-McAfee south=Krasnoarmeysk 
+Candler-McAfee north=Zarya east=Krasnoarmeysk south=Massa west=Makumbako 
+Zarya north=Massa south=Candler-McAfee 
+Massa north=Candler-McAfee south=Zarya 
+Wewak north=Huntington_Beach 
+Huntington_Beach south=Wewak 
+Busan north=Baliuag south=Concepción_del_Uruguay 
+Baliuag east=Concepción_del_Uruguay south=Busan west=Pensacola 
+Concepción_del_Uruguay north=Busan south=Pensacola west=Baliuag 
+Pensacola north=Concepción_del_Uruguay east=Baliuag west=Vogan 
+Vogan north=Siliana east=Pensacola west=Halvad 
+Siliana south=Vogan west=Halvad 
+Halvad east=Siliana south=Bagamoyo west=Sittwe 
+Bagamoyo north=Halvad east=Sittwe 
+Sittwe north=Muskego east=Halvad south=Hrodna west=Bagamoyo 
+Muskego north=Hrodna east=Huancavelica south=Sittwe 
+Hrodna north=Sittwe east=Huancavelica south=Muskego west=Nāḩīyat_Saddat_al_Hindīyah 
+Huancavelica north=Nāḩīyat_Saddat_al_Hindīyah south=San_Miguel_De_Abona west=Hrodna 
+Nāḩīyat_Saddat_al_Hindīyah east=Hrodna south=Huancavelica 
+San_Miguel_De_Abona north=Huancavelica south=Leesburg west=Prince_Albert 
+Leesburg north=San_Miguel_De_Abona south=Prince_Albert west=Lopez 
+Prince_Albert north=Leesburg east=San_Miguel_De_Abona 
+Lopez north=La_Línea_de_la_Concepción east=Leesburg west=Santa_Fé_do_Sul 
+La_Línea_de_la_Concepción north=Santa_Fé_do_Sul east=Anloo south=Lopez west=Niles 
+Santa_Fé_do_Sul east=Lopez south=La_Línea_de_la_Concepción west=Anloo 
+Anloo east=Santa_Fé_do_Sul south=Niles west=La_Línea_de_la_Concepción 
+Niles north=Anloo east=La_Línea_de_la_Concepción 
+Artémida north=Zürich_(Kreis_11)_/_Seebach south=Lucé west=Venustiano_Carranza 
+Zürich_(Kreis_11)_/_Seebach north=Lucé south=Artémida west=Venustiano_Carranza 
+Lucé north=Artémida east=Venustiano_Carranza south=Zürich_(Kreis_11)_/_Seebach 
+Venustiano_Carranza north=Carcaixent east=Zürich_(Kreis_11)_/_Seebach west=Lucé 
+Carcaixent east=Guaporé south=Venustiano_Carranza 
+Guaporé north=Xinglongshan south=Kabarnet west=Carcaixent 
+Xinglongshan north=Kabarnet east=Bideford south=Guaporé 
+Kabarnet north=Guaporé south=Xinglongshan 
+Bideford north=Tādepallegūdem east=Chernaya_Rechka south=Mihona west=Xinglongshan 
+Tādepallegūdem east=Chernaya_Rechka south=Bideford 
+Chernaya_Rechka north=Mihona east=Mariquita west=Tādepallegūdem 
+Mihona north=Bideford east=Mariquita south=Chernaya_Rechka 
+Mariquita north=El_Prat_de_Llobregat east=Colonia_del_Sacramento west=Mihona 
+El_Prat_de_Llobregat north=Colonia_del_Sacramento south=Mariquita 
+Colonia_del_Sacramento north=Aprilia east=Dornakal south=El_Prat_de_Llobregat west=Mariquita 
+Aprilia east=Dornakal south=Colonia_del_Sacramento west=Villa_Juárez 
+Dornakal north=Villa_Juárez west=Aprilia 
+Villa_Juárez east=Aprilia south=Dornakal west=Baoqing 
+Baoqing north=Gautier east=Villa_Juárez 
+Gautier north=Sanaa south=Baoqing 
+Sanaa east=Carangola south=Gautier west=Dhuliān 
+Carangola east=Dhuliān south=Mount_Lebanon west=Sanaa 
+Dhuliān north=Mount_Lebanon east=Sanaa south=Yunguyo west=Carangola 
+Mount_Lebanon north=Carangola east=Yunguyo south=Dhuliān west=Odenton 
+Yunguyo north=Dhuliān west=Mount_Lebanon 
+Odenton north=Remchi east=Mount_Lebanon 
+Remchi north=Ad_Dānā east=Mendez-Nuñez south=Odenton west=Sandīla 
+Ad_Dānā south=Remchi west=Mendez-Nuñez 
+Mendez-Nuñez east=Ad_Dānā south=Sandīla west=Remchi 
+Sandīla north=Mendez-Nuñez east=Remchi south=San_Diego west=Hanchuan 
+San_Diego north=Sandīla 
+Hanchuan north=Charkhi_Dādri east=Sandīla south=North_Vancouver 
+Charkhi_Dādri east=North_Vancouver south=Hanchuan 
+North_Vancouver north=Hanchuan east=Ilebo west=Charkhi_Dādri 
+Ilebo south=Tessenderlo west=North_Vancouver 
+Tessenderlo north=Ilebo east=Batu_Arang 
+Batu_Arang south=Karhal west=Tessenderlo 
+Karhal north=Batu_Arang east=Raytown south=Vişeu_de_Sus west=San_Donato_Milanese 
+Raytown south=Vişeu_de_Sus west=Karhal 
+Vişeu_de_Sus north=Raytown east=San_Donato_Milanese west=Elst 
+San_Donato_Milanese east=Karhal south=Elst west=Vişeu_de_Sus 
+Elst north=San_Donato_Milanese east=Vişeu_de_Sus south=Jalajala west=Dunaújváros 
+Jalajala north=Elst east=Dunaújváros south=Fayetteville west=Nabeul 
+Dunaújváros east=Elst west=Jalajala 
+Fayetteville north=Jalajala west=Nabeul 
+Nabeul east=Fayetteville south=Glenmore_Park west=Arecibo 
+Glenmore_Park north=Nabeul 
+Arecibo east=Nabeul south=Grottaglie west=Whittier 
+Grottaglie north=Arecibo east=Whittier west=Lupon 
+Whittier north=Lupon east=Arecibo south=Shāhjānpur west=Grottaglie 
+Lupon north=Shāhjānpur east=Grottaglie south=Whittier west=Oupeye 
+Shāhjānpur north=Whittier south=Lupon west=Oupeye 
+Oupeye north=Ban_Selaphum east=Shāhjānpur west=Quelimane 
+Ban_Selaphum south=Oupeye west=Quelimane 
+Quelimane north=Xiangyang east=Ban_Selaphum 
+Xiangyang east=Liuhe south=Quelimane west=Chīpurupalle 
+Liuhe north=Chīpurupalle west=Xiangyang 
+Chīpurupalle north=Capelle_aan_den_IJssel east=Xiangyang south=Liuhe 
+Capelle_aan_den_IJssel north=Dibrugarh south=Chīpurupalle 
+Dibrugarh north=San_Jacinto south=Capelle_aan_den_IJssel 
+San_Jacinto north=Oberursel east=Pātūr south=Dibrugarh west=Sulechów 
+Oberursel north=Pātūr south=San_Jacinto 
+Pātūr east=Sulechów south=Oberursel west=San_Jacinto 
+Sulechów east=San_Jacinto west=Pātūr 
+Kearny east=Palimanan south=Martina_Franca 
+Palimanan south=Martina_Franca west=Kearny 
+Martina_Franca north=Palimanan east=Bharatpur south=Duderstadt 
+Bharatpur east=Duderstadt south=Apopa west=Martina_Franca 
+Duderstadt north=Martina_Franca west=Bharatpur 
+Apopa north=Bharatpur east=Vettūr south=Murrieta 
+Vettūr north=Murrieta east=Krujë south=Port_Orange west=Apopa 
+Murrieta north=Apopa east=Krujë south=Vettūr west=Port_Orange 
+Krujë north=Port_Orange west=Murrieta 
+Port_Orange north=Vettūr east=Murrieta south=Krujë 
+Boudouaou east=Bhera south=Cluj-Napoca 
+Bhera north=Cluj-Napoca south=South_Croydon west=Boudouaou 
+Cluj-Napoca north=Boudouaou east=South_Croydon south=Bhera 
+South_Croydon north=Bhera east=Lodi south=Saña west=Cluj-Napoca 
+Lodi east=Saña south=Khairābād west=South_Croydon 
+Saña north=South_Croydon east=Khairābād west=Lodi 
+Khairābād north=Lodi east=Rennes west=Saña 
+Rennes east=Guledagudda south=Pyryatyn west=Khairābād 
+Guledagudda north=Pyryatyn east=Vasind west=Rennes 
+Pyryatyn north=Rennes east=Vasind south=Guledagudda 
+Vasind north=Duncan east=Araucária south=Machesney_Park west=Pyryatyn 
+Duncan east=Araucária south=Vasind 
+Araucária north=Machesney_Park east=Tamalous west=Duncan 
+Machesney_Park north=Vasind south=Araucária 
+Tamalous north=São_Sebastião_do_Paraíso west=Araucária 
+São_Sebastião_do_Paraíso east=Prachin_Buri south=Tamalous 
+Prachin_Buri north=Setúbal east=Cernusco_sul_Naviglio south=Gallarate west=São_Sebastião_do_Paraíso 
+Setúbal north=Cernusco_sul_Naviglio south=Prachin_Buri west=Gallarate 
+Cernusco_sul_Naviglio south=Setúbal west=Prachin_Buri 
+Gallarate north=Prachin_Buri east=Setúbal west=Qahderījān 
+Qahderījān east=Gallarate south=Truro west=Wesseling 
+Truro north=Qahderījān east=Wesseling 
+Wesseling north=Görlitz east=Qahderījān west=Truro 
+Görlitz north=Achern east=Rāmachandrapuram south=Wesseling west=Betioky 
+Achern north=Rāmachandrapuram east=Betioky south=Görlitz 
+Rāmachandrapuram north=Betioky south=Achern west=Görlitz 
+Betioky north=Pervoural’sk east=Görlitz south=Rāmachandrapuram west=Achern 
+Pervoural’sk north=Driefontein south=Betioky 
+Driefontein north=Pilar_de_la_Horadada east=SeaTac south=Pervoural’sk 
+Pilar_de_la_Horadada north=SeaTac south=Driefontein 
+SeaTac east=Piombino south=Pilar_de_la_Horadada west=Driefontein 
+Piombino east=Bobo-Dioulasso west=SeaTac 
+Bobo-Dioulasso north=Dalian east=South_Peabody west=Piombino 
+Dalian south=Bobo-Dioulasso west=South_Peabody 
+South_Peabody north=Mitry-Mory east=Dalian west=Bobo-Dioulasso 
+Mitry-Mory east=Meridian south=South_Peabody 
+Meridian east=Someshwar west=Mitry-Mory 
+Someshwar north=Mount_Pleasant east=Homnābād west=Meridian 
+Mount_Pleasant east=Homnābād south=Someshwar 
+Homnābād north=Santa_Lucía west=Mount_Pleasant 
+Santa_Lucía east=Jinsha south=Homnābād 
+Jinsha north=Korydallós west=Santa_Lucía 
+Korydallós north=Cambuí east=Kyaiklat south=Jinsha west=Detroit 
+Cambuí north=Kyaiklat east=Detroit south=Korydallós west=Nawābganj 
+Kyaiklat north=Detroit east=Nawābganj south=Cambuí west=Korydallós 
+Detroit east=Korydallós south=Kyaiklat west=Cambuí 
+Nawābganj north=Hindaun east=Cambuí west=Kyaiklat 
+Hindaun south=Nawābganj west=Rodgau 
+Rodgau east=Hindaun south=Sovetskiy west=Lakshmeshwar 
+Sovetskiy north=Rodgau west=Lakshmeshwar 
+Lakshmeshwar east=Sovetskiy south=Douala west=Vicálvaro 
+Douala north=Lakshmeshwar east=Vicálvaro south=Tsuyama 
+Vicálvaro north=Tsuyama east=Lakshmeshwar west=Douala 
+Tsuyama north=Douala south=Vicálvaro west=Tampin 
+Tampin north=Peachtree_City east=Tsuyama south=Rembangan 
+Peachtree_City south=Tampin west=Rembangan 
+Rembangan north=Tampin east=Peachtree_City 
+Pátra south=Morristown west=Schiltigheim 
+Morristown north=Pátra south=Schiltigheim 
+Schiltigheim north=Morristown east=Pátra west=Bet_Shemesh 
+Bet_Shemesh north=Deoband east=Schiltigheim south=Kathmandu 
+Deoband east=Kathmandu south=Bet_Shemesh 
+Kathmandu north=Bet_Shemesh west=Deoband 
+Newport_Pagnell west=Bergheim 
+Bergheim east=Newport_Pagnell west=Hisor 
+Hisor north=Kokopo east=Bergheim west=Thul 
+Kokopo north=Thul east=Kundla south=Hisor 
+Thul north=Kundla east=Hisor south=Kokopo west=Mūlki 
+Kundla south=Thul west=Kokopo 
+Mūlki east=Thul south=Zhosaly 
+Zhosaly north=Mūlki east=Wiehl 
+Wiehl south=Ōgaki west=Zhosaly 
+Ōgaki north=Wiehl south=Bílina_Kyselka 
+Bílina_Kyselka north=Ōgaki south=Yanagawa west=Moca 
+Yanagawa north=Bílina_Kyselka east=Moca south=Santo_Antônio_do_Monte west=Christchurch 
+Moca east=Bílina_Kyselka south=Santo_Antônio_do_Monte west=Yanagawa 
+Santo_Antônio_do_Monte north=Moca south=Christchurch 
+Christchurch north=Santo_Antônio_do_Monte east=Yanagawa south=Izhevsk 
+Izhevsk north=Christchurch east=Yaritagua west=Kazan 
+Yaritagua north=Kazan south=Mzuzu west=Izhevsk 
+Kazan north=Mzuzu east=Izhevsk south=Yaritagua 
+Mzuzu north=Yaritagua east=Al_Marsá south=Kazan 
+Al_Marsá north=Whickham east=Zutphen south=Kamīr west=Mzuzu 
+Whickham east=Zutphen south=Al_Marsá west=Kamīr 
+Zutphen north=Kamīr west=Whickham 
+Kamīr north=Al_Marsá east=Whickham south=Zutphen west=Nkwerre 
+Nkwerre north=Shamsābād east=Kamīr south=Burnham-on-Sea 
+Shamsābād south=Nkwerre west=Burnham-on-Sea 
+Burnham-on-Sea north=Nkwerre east=Shamsābād west=Takoma_Park 
+Takoma_Park north=Ajka east=Burnham-on-Sea west=Netrakona 
+Ajka south=Takoma_Park west=Netrakona 
+Netrakona north=Laojunmiao east=Ajka south=Obukhiv west=Tagudin 
+Laojunmiao east=Obukhiv south=Netrakona 
+Obukhiv north=Netrakona west=Laojunmiao 
+Tagudin east=Netrakona south=Legaspi west=Fatikchari 
+Legaspi north=Tagudin east=Fatikchari south=Villefranche-sur-Saône 
+Fatikchari north=Villefranche-sur-Saône east=Tagudin south=Amiens west=Legaspi 
+Villefranche-sur-Saône north=Legaspi east=Amiens south=Fatikchari west=Kunyang 
+Amiens north=Fatikchari south=Kunyang west=Villefranche-sur-Saône 
+Kunyang north=Amiens east=Villefranche-sur-Saône west=Moulins 
+Moulins east=Kunyang 
+Bielany west=Narangba 
+Narangba east=Bielany south=Brilon west=Mascara 
+Brilon north=Narangba east=Mascara south=Mumbwa west=Ingolstadt 
+Mascara east=Narangba south=Mumbwa west=Brilon 
+Mumbwa north=Mascara 
+Ingolstadt north=Fatsa east=Brilon south=Shiyan 
+Fatsa south=Ingolstadt 
+Shiyan north=Ingolstadt south=Karor 
+Karor north=Shiyan south=Udipi west=Point_Pedro 
+Udipi north=Karor east=Point_Pedro south=Chacao 
+Point_Pedro north=Chacao east=Karor south=Dāūd_Khel west=Udipi 
+Chacao north=Udipi east=Dāūd_Khel south=Point_Pedro west=Toukh 
+Dāūd_Khel north=Point_Pedro south=Toukh west=Chacao 
+Toukh north=Dāūd_Khel east=Chacao west=Ambarawa 
+Ambarawa east=Toukh south=Givors 
+Givors north=Ambarawa south=Aguilares 
+Aguilares north=Givors 
+Orinda east=Ţurayf south=Sorang 
+Ţurayf north=Sorang west=Orinda 
+Sorang north=Orinda east=Lompoc south=Ţurayf 
+Lompoc north=Markala east=Patos_de_Minas west=Sorang 
+Markala north=Patos_de_Minas south=Lompoc 
+Patos_de_Minas east=Benavente south=Markala west=Lompoc 
+Benavente north=Phú_Khương east=Lidköping west=Patos_de_Minas 
+Phú_Khương north=Lidköping south=Benavente 
+Lidköping south=Phú_Khương west=Benavente 
+Spandau west=Leme 
+Leme north=Boulogne-sur-Mer east=Spandau west=Al_Muharraq 
+Boulogne-sur-Mer east=Al_Muharraq south=Leme west=Biała_Podlaska 
+Al_Muharraq north=Biała_Podlaska east=Leme south=Rapperswil west=Boulogne-sur-Mer 
+Biała_Podlaska north=Rapperswil east=Boulogne-sur-Mer south=Al_Muharraq 
+Rapperswil north=Al_Muharraq south=Biała_Podlaska west=Reinbek 
+Reinbek east=Rapperswil south=Équeurdreville-Hainneville west=Beaconsfield 
+Équeurdreville-Hainneville north=Reinbek east=Beaconsfield west=Caen 
+Beaconsfield east=Reinbek west=Équeurdreville-Hainneville 
+Caen east=Équeurdreville-Hainneville west=Melzo 
+Melzo east=Caen south=Kronberg 
+Kronberg north=Melzo south=Aliso_Viejo 
+Aliso_Viejo north=Kronberg south=Puerto_Tejada 
+Puerto_Tejada north=Aliso_Viejo east=Butare 
+Butare west=Puerto_Tejada 
+Depew north=Miyazaki 
+Miyazaki east=Bytów south=Depew west=Winchester 
+Bytów south=Winchester west=Miyazaki 
+Winchester north=Bytów east=Miyazaki 
+Lupeni north=Baena east=Gladstone south=Tagbilaran_City 
+Baena north=Gladstone south=Lupeni 
+Gladstone north=Tagbilaran_City east=Lakhīmpur south=Baena west=Lupeni 
+Tagbilaran_City north=Lupeni south=Gladstone west=Lakhīmpur 
+Lakhīmpur east=Tagbilaran_City west=Gladstone 
+Hiriyūr north=Wardha east=Kireka south=Camaná 
+Wardha east=Kireka south=Hiriyūr 
+Kireka north=Camaná east=Kirkland south=Haqqulobod west=Wardha 
+Camaná north=Hiriyūr south=Kireka 
+Kirkland east=Haqqulobod south=Macia west=Kireka 
+Haqqulobod north=Kireka east=Macia south=Toledo west=Kirkland 
+Macia north=Kirkland south=Toledo west=Haqqulobod 
+Toledo north=Macia west=Changde 
+Changde east=Toledo south=Tulun west=Phatthalung 
+Tulun north=Changde south=Phatthalung 
+Phatthalung north=Tulun east=Changde south=Medford 
+Medford north=Phatthalung 
+Hastināpur north=Bānsbāria west=Santa_Catarina_Pinula 
+Bānsbāria north=Santa_Catarina_Pinula east=Magalang south=Hastināpur 
+Santa_Catarina_Pinula east=Hastināpur south=Bānsbāria west=Magalang 
+Magalang east=Santa_Catarina_Pinula south=Tremblay-en-France west=Bānsbāria 
+Tremblay-en-France north=Magalang 
+Buseresere east=Domodedovo south=Akora 
+Domodedovo north=Akora east=Āsbe_Teferī south=Central_Islip west=Buseresere 
+Akora north=Buseresere east=Āsbe_Teferī south=Domodedovo west=Central_Islip 
+Āsbe_Teferī north=Central_Islip west=Akora 
+Central_Islip north=Domodedovo east=Akora south=Āsbe_Teferī west=Cambridge 
+Cambridge north=Shaoguan east=Central_Islip south=Harpanahalli 
+Shaoguan north=Harpanahalli east=Neftekumsk south=Cambridge 
+Harpanahalli north=Cambridge east=Neftekumsk south=Shaoguan west=Tezpur 
+Neftekumsk north=Tezpur west=Harpanahalli 
+Tezpur east=Harpanahalli south=Neftekumsk 
+Orly east=Alegrete 
+Alegrete east=Yenangyaung west=Orly 
+Yenangyaung west=Alegrete 

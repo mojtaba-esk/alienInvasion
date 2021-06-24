@@ -36,6 +36,10 @@ func Generate(numOfCities int64) Cities {
 
 }
 
+// `cityIdSequence` is a global var that is used to generate sequential names
+// for cities in case the real names are not available or not enough
+var cityIdSequence int64
+
 /**
 * This function generates a new random city and returns a pointer to its node
  */
@@ -45,8 +49,8 @@ func generateNewCity() *City {
 
 	randomCityName := getRandomCityName()
 	if randomCityName == "" {
-		cityId := tools.RandomNumberI(0, 999999)
-		randomCityName = fmt.Sprintf("City_#%d", cityId)
+		randomCityName = fmt.Sprintf("City_#%d", cityIdSequence)
+		cityIdSequence++
 	}
 	cityNode.Name = randomCityName
 

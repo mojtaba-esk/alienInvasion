@@ -22,35 +22,6 @@ type City struct {
 /*-----------*/
 
 /**
-* This function prints the available city (i.e. if not destroyed) in the same format of the database
- */
-func (c *City) print() {
-
-	if c == nil || c.Destroyed {
-		return
-	}
-
-	fmt.Printf("%s ", c.Name)
-
-	if c.North != nil && !c.North.Destroyed {
-		fmt.Printf("north=%s ", c.North.Name)
-	}
-
-	if c.East != nil && !c.East.Destroyed {
-		fmt.Printf("east=%s ", c.East.Name)
-	}
-
-	if c.South != nil && !c.South.Destroyed {
-		fmt.Printf("south=%s ", c.South.Name)
-	}
-
-	if c.West != nil && !c.West.Destroyed {
-		fmt.Printf("west=%s ", c.West.Name)
-	}
-	fmt.Println()
-}
-
-/**
 * This function connects the city to a set of randomly selected cities from the given city list to random directions
  */
 func (c *City) randomConnect(listOfCities Cities) {
@@ -129,6 +100,38 @@ func (c *City) Leave(invaderName string) {
 
 	// We just remove the name of the alien from the invaders
 	c.InvaderNames = tools.SliceItemRemove(c.InvaderNames, invaderName)
+}
+
+/**
+* This function prepares the printable string of the available city (i.e. if not destroyed)
+* in the same format of the database
+ */
+func (c *City) ToString() string {
+
+	output := ""
+	if c == nil || c.Destroyed {
+		return output
+	}
+
+	output += fmt.Sprintf("%s ", c.Name)
+
+	if c.North != nil && !c.North.Destroyed {
+		output += fmt.Sprintf("north=%s ", c.North.Name)
+	}
+
+	if c.East != nil && !c.East.Destroyed {
+		output += fmt.Sprintf("east=%s ", c.East.Name)
+	}
+
+	if c.South != nil && !c.South.Destroyed {
+		output += fmt.Sprintf("south=%s ", c.South.Name)
+	}
+
+	if c.West != nil && !c.West.Destroyed {
+		output += fmt.Sprintf("west=%s ", c.West.Name)
+	}
+
+	return output
 }
 
 /**
