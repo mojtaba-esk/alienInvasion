@@ -25,11 +25,11 @@ func main() {
 	- start			Starts the invasion normally`,
 	)
 
-	var databasePath string
-	flag.StringVar(&databasePath, "d", "database.txt", "Specify the path to the database file.")
-
 	var numOfCities int64
 	flag.Int64Var(&numOfCities, "c", 10, "Specify the number of cities for the world generator.")
+
+	var databasePath string
+	flag.StringVar(&databasePath, "d", "database.txt", "Specify the path to the database file.")
 
 	var numOfAliens int64
 	flag.Int64Var(&numOfAliens, "n", 5, "Specify the number of aliens.")
