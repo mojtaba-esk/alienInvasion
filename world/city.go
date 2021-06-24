@@ -21,9 +21,7 @@ type City struct {
 
 /*-----------*/
 
-/**
-* This function connects the city to a set of randomly selected cities from the given city list to random directions
- */
+// This function connects the city to a set of randomly selected cities from the given city list to random directions
 func (c *City) randomConnect(listOfCities Cities) {
 
 	// Generate a random number for each direction to decide to connect it or not
@@ -76,10 +74,8 @@ func (c *City) randomConnect(listOfCities Cities) {
 
 }
 
-/**
-* This function is called once the city is visited by an alien
-* The invasion result can happen here
- */
+// This function is called once the city is visited by an alien
+// The invasion result can happen here
 func (c *City) Enter(invaderName string) {
 
 	c.InvaderNames = append(c.InvaderNames, invaderName)
@@ -93,19 +89,15 @@ func (c *City) Enter(invaderName string) {
 
 }
 
-/**
-* This function is called once the city is left by an alien
- */
+// This function is called once the city is left by an alien
 func (c *City) Leave(invaderName string) {
 
 	// We just remove the name of the alien from the invaders
 	c.InvaderNames = tools.SliceItemRemove(c.InvaderNames, invaderName)
 }
 
-/**
-* This function prepares the printable string of the available city (i.e. if not destroyed)
-* in the same format of the database
- */
+// This function prepares the printable string of the available city (i.e. if not destroyed)
+// in the same format of the database
 func (c *City) ToString() string {
 
 	output := ""
@@ -134,9 +126,7 @@ func (c *City) ToString() string {
 	return output
 }
 
-/**
-* This function prints the fight message and destruction report of the city
- */
+// This function prints the fight message and destruction report of the city
 func (c *City) printDestructionMessage() {
 
 	if len(c.InvaderNames) == 0 {
@@ -156,9 +146,7 @@ func (c *City) printDestructionMessage() {
 
 }
 
-/**
-* This function destroyes a city according to the given instructions
- */
+// This function destroyes a city according to the given instructions
 func (c *City) destroy() {
 
 	// First Block the path from the neighbors to this city

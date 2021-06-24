@@ -8,12 +8,7 @@ import "fmt"
 
 type Cities []*City
 
-/**
-*
-* This function receives a slice of cities and prints them all,
-*
- */
-
+// This function receives a slice of cities and prints them all,
 func PrintAllCities(listOfCities Cities) {
 
 	numOfCities := len(listOfCities)
@@ -26,6 +21,7 @@ func PrintAllCities(listOfCities Cities) {
 	}
 }
 
+// This function counts and returns the number of destroyed cities
 func NumOfDestroyedCities(listOfCities Cities) int64 {
 
 	var output int64 = 0

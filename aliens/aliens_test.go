@@ -15,10 +15,8 @@ func TestMain(m *testing.M) {
 	os.Exit(m.Run())
 }
 
-/**
-* This function tests the aliens package
-* it first generates a new world and then launches various invasions on it
- */
+// This function tests the aliens package
+// it first generates a new world and then launches various invasions on it
 func TestAliens(t *testing.T) {
 
 	// Test table

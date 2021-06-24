@@ -76,9 +76,7 @@ func main() {
 
 /*--------------*/
 
-/*
-* This function configures the output of the logs
- */
+//  This function configures the output of the logs
 func configLogs() {
 
 	// Let's store logs in a log file

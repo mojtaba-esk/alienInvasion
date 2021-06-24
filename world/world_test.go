@@ -14,11 +14,9 @@ func TestMain(m *testing.M) {
 	os.Exit(m.Run())
 }
 
-/**
-* This function tests the world (cities) generator
-* and data load and compares the results to see
-* if everything regarding data-generation, data-load, and world graph construction work well
- */
+//  This function tests the world (cities) generator
+//  and data load and compares the results to see
+//  if everything regarding data-generation, data-load, and world graph construction work well
 func TestGenerateAndLoad(t *testing.T) {
 
 	// Test table

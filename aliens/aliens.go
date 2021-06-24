@@ -13,11 +13,9 @@ import (
 // By having the pointer to each city, we can quickly find the corresponding mutex
 type citiesMutexList map[*world.City]*sync.Mutex
 
-/**
-* This function initiates the invasion.
-* It first generates a list of aliens, then it put each alien in a randomly chosen city,
-*  then run the Invade function of the alien in a separate goroutine
- */
+// This function initiates the invasion.
+// It first generates a list of aliens, then it put each alien in a randomly chosen city,
+//  then run the Invade function of the alien in a separate goroutine
 func InitInvasion(numOfAliens int64, listOfCities world.Cities) {
 
 	numOfCities := int64(len(listOfCities)) // better to cast once that having it in the loop

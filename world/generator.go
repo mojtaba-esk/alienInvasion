@@ -10,10 +10,8 @@ import (
 
 /*--------------------*/
 
-/**
-* This function receives the number of cities and generates a new world accordingly
-* It returns a slice holding all the pointers to the cities
- */
+// This function receives the number of cities and generates a new world accordingly
+// It returns a slice holding all the pointers to the cities
 func Generate(numOfCities int64) Cities {
 
 	if numOfCities <= 0 {
@@ -40,9 +38,7 @@ func Generate(numOfCities int64) Cities {
 // for cities in case the real names are not available or not enough
 var cityIdSequence int64
 
-/**
-* This function generates a new random city and returns a pointer to its node
- */
+// This function generates a new random city and returns a pointer to its node
 func generateNewCity() *City {
 
 	var cityNode City
@@ -57,9 +53,7 @@ func generateNewCity() *City {
 	return &cityNode
 }
 
-/**
-* This function gets a random unique name from the city database
- */
+// This function gets a random unique name from the city database
 var cityNamesList []string
 
 func getRandomCityName() string {
@@ -89,11 +83,8 @@ func getRandomCityName() string {
 	return output
 }
 
-/**
-* This function reads the csv file locates in `/data/world-cities.csv` and
-* returns a slice with the names of all the major cities in the world
- */
-
+// This function reads the csv file locates in `/data/world-cities.csv` and
+// returns a slice with the names of all the major cities in the world
 func loadCityNamesFromCSV() ([]string, error) {
 
 	file, err := os.Open(cityNamesCSVFilePath)

@@ -10,24 +10,18 @@ type Alien struct {
 	Name string
 }
 
-/**
-* This function recives the name of an alien,
-*  create a new alien object and returns the pointer address to it
- */
+// This function recives the name of an alien,
+// create a new alien object and returns the pointer address to it
 func newAlien(name string) *Alien {
 	return &Alien{Name: name}
 }
 
-/**
-* This function (rather method) start the invasion of the alien
-* It first enters to the given city then finds all available outgoing paths of the city
-*  then it randomly chooses a path and moves to another city
-* If it gets trapped i.e. there is no way to go out of the city, it terminates itself
-*
-* When an alien enters a city, we need to keep track of all invaders; in order to avoid race condition,
-*  we consider it as a critical section and protect each city with an individual mutex
-*
- */
+// This function (rather method) start the invasion of the alien
+// It first enters to the given city then finds all available outgoing paths of the city
+//  then it randomly chooses a path and moves to another city
+// If it gets trapped i.e. there is no way to go out of the city, it terminates itself
+// When an alien enters a city, we need to keep track of all invaders; in order to avoid race condition,
+//  we consider it as a critical section and protect each city with an individual mutex
 func (a *Alien) Invade(currentCity *world.City, wg *sync.WaitGroup, mutexList citiesMutexList) {
 
 	defer wg.Done()

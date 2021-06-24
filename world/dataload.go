@@ -10,11 +10,9 @@ import (
 
 /*---------------------*/
 
-/**
-* This function receives a `filepath`, attempts to load the file
-* then hands over the content to `ParseText()` for further processing
-* It returns the parsed data in form of a slice of pointers to all cities
- */
+// This function receives a `filepath`, attempts to load the file
+// then hands over the content to `ParseText()` for further processing
+// It returns the parsed data in form of a slice of pointers to all cities
 func Load(filepath string) (Cities, error) {
 
 	file, err := os.Open(filepath)
@@ -36,10 +34,8 @@ func Load(filepath string) (Cities, error) {
 	return ParseText(text)
 }
 
-/**
-* This function receives a `text` and parses the data to extract city names and their connection
-* It returns the parsed data in form of a slice of pointers to all cities
- */
+// This function receives a `text` and parses the data to extract city names and their connection
+// It returns the parsed data in form of a slice of pointers to all cities
 func ParseText(text string) (Cities, error) {
 
 	var listOfCities Cities
