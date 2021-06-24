@@ -25,6 +25,9 @@ func main() {
 	- start			Starts the invasion normally`,
 	)
 
+	var databasePath string
+	flag.StringVar(&databasePath, "d", "database.txt", "Specify the path to the database file.")
+
 	var numOfCities int64
 	flag.Int64Var(&numOfCities, "c", 10, "Specify the number of cities for the world generator.")
 
@@ -38,7 +41,7 @@ func main() {
 	switch action {
 	case "start":
 		{
-			listOfAllCities, err := world.Load("database.txt")
+			listOfAllCities, err := world.Load(databasePath)
 			if err != nil {
 				log.Printf("[Err  ] database loading: %v", err)
 				panic(err)
