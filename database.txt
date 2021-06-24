@@ -1,0 +1,30 @@
+Westerstede north=Kansanshi east=Aripuanã south=Andong 
+Kansanshi south=Westerstede 
+Aripuanã east=Andong south=Anjala west=Westerstede 
+Andong north=Westerstede west=Aripuanã 
+Anjala north=Aripuanã south=Garui 
+Garui north=Anjala east=Loboc west=Arai 
+Loboc north=Arai east=Atoyac_de_Álvarez west=Garui 
+Arai east=Garui south=Loboc 
+Atoyac_de_Álvarez east=Kunshan south=Churāchāndpur west=Loboc 
+Kunshan north=Churāchāndpur east=Brookfield south=Rawtenstall west=Atoyac_de_Álvarez 
+Churāchāndpur north=Atoyac_de_Álvarez south=Kunshan 
+Brookfield south=Rawtenstall west=Kunshan 
+Rawtenstall north=Brookfield south=Tulun west=Ardeşen 
+Tulun north=Rawtenstall east=Ardeşen west=Tharangambadi 
+Ardeşen north=Tharangambadi east=Rawtenstall west=Tulun 
+Tharangambadi north=Balma east=Tulun south=Ardeşen 
+Balma north=Sātāra east=Channarāyapatna south=Tharangambadi west=Lake_in_the_Hills 
+Sātāra south=Balma west=Channarāyapatna 
+Channarāyapatna east=Sātāra west=Balma 
+Lake_in_the_Hills east=Balma south=Chilibre 
+Chilibre north=Lake_in_the_Hills east=Tekstil’shchiki west=Avtovo 
+Tekstil’shchiki south=Avtovo west=Chilibre 
+Avtovo north=Tekstil’shchiki east=Chilibre south=Temerluh west=Sīra 
+Temerluh north=Avtovo east=Sīra 
+Sīra east=Avtovo west=Temerluh 
+Kufa south=Tha_Yang west=Wakimachi 
+Tha_Yang north=Kufa east=Wakimachi west=Örebro 
+Wakimachi north=Örebro east=Kufa south=Rapallo west=Tha_Yang 
+Örebro north=Rapallo east=Tha_Yang south=Wakimachi 
+Rapallo north=Wakimachi south=Örebro
