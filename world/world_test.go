@@ -77,8 +77,8 @@ func TestGenerateAndLoad(t *testing.T) {
 	}
 }
 
-/*---------------*/
-
+// This function receives a list fo cities and generates a text database out of it
+// It is used for test purpose
 func buildTextDatabase(listOfCities Cities) string {
 
 	output := ""
