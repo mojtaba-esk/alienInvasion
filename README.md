@@ -75,7 +75,9 @@ go test ./... -v
 
 ## Source code documentation:
 
-To see the source code documentation first run the following command:
+Available here: https://pkg.go.dev/github.com/mojtaba-esk/alienInvasion
+
+If you wanna see it locally you can try this: 
 
 ```
 godoc
