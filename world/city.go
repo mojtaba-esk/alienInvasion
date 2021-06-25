@@ -1,8 +1,9 @@
 package world
 
 import (
-	"alienInvasion/tools"
 	"fmt"
+
+	"github.com/mojtaba-esk/alienInvasion/tools"
 )
 
 /*-----------*/

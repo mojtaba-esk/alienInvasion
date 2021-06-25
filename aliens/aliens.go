@@ -3,10 +3,11 @@
 package aliens
 
 import (
-	"alienInvasion/tools"
-	"alienInvasion/world"
 	"fmt"
 	"sync"
+
+	"github.com/mojtaba-esk/alienInvasion/tools"
+	"github.com/mojtaba-esk/alienInvasion/world"
 )
 
 // This type refers to a hashmap that holds all mutex of the cities

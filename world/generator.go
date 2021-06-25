@@ -1,11 +1,12 @@
 package world
 
 import (
-	"alienInvasion/tools"
 	"bufio"
 	"fmt"
 	"log"
 	"os"
+
+	"github.com/mojtaba-esk/alienInvasion/tools"
 )
 
 /*--------------------*/

@@ -1,9 +1,10 @@
 package aliens
 
 import (
-	"alienInvasion/tools"
-	"alienInvasion/world"
 	"sync"
+
+	"github.com/mojtaba-esk/alienInvasion/tools"
+	"github.com/mojtaba-esk/alienInvasion/world"
 )
 
 type Alien struct {

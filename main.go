@@ -1,12 +1,13 @@
 package main
 
 import (
-	"alienInvasion/aliens"
-	"alienInvasion/world"
 	"flag"
 	"fmt"
 	"log"
 	"os"
+
+	"github.com/mojtaba-esk/alienInvasion/aliens"
+	"github.com/mojtaba-esk/alienInvasion/world"
 )
 
 /*--------------*/

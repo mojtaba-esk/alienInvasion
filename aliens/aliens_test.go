@@ -1,11 +1,12 @@
 package aliens
 
 import (
-	"alienInvasion/world"
 	"io/ioutil"
 	"log"
 	"os"
 	"testing"
+
+	"github.com/mojtaba-esk/alienInvasion/world"
 )
 
 // Disabling logs
