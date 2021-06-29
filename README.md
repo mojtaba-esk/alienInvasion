@@ -76,11 +76,3 @@ go test ./... -v
 ## Source code documentation:
 
 Available here: https://pkg.go.dev/github.com/mojtaba-esk/alienInvasion
-
-If you wanna see it locally you can try this: 
-
-```
-godoc
-```
-
-Then head over to this URL: http://localhost:6060/pkg/alienInvasion/
