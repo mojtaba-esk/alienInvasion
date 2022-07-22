@@ -147,7 +147,7 @@ func (c *City) printDestructionMessage() {
 
 }
 
-// This function destroyes a city according to the given instructions
+// This function destroys a city according to the given instructions
 func (c *City) destroy() {
 
 	// First Block the path from the neighbors to this city

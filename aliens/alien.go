@@ -1,6 +1,7 @@
 package aliens
 
 import (
+	"fmt"
 	"sync"
 
 	"github.com/mojtaba-esk/alienInvasion/tools"
@@ -23,7 +24,7 @@ func newAlien(name string) *Alien {
 // If it gets trapped i.e. there is no way to go out of the city, it terminates itself
 // When an alien enters a city, we need to keep track of all invaders; in order to avoid race condition,
 // we consider it as a critical section and protect each city with an individual mutex
-func (a *Alien) Invade(currentCity *world.City, wg *sync.WaitGroup, mutexList citiesMutexList) {
+func (a *Alien) Invade(currentCity *world.City, wg *sync.WaitGroup, mutexList sync.Map) {
 
 	defer wg.Done()
 
@@ -32,12 +33,20 @@ func (a *Alien) Invade(currentCity *world.City, wg *sync.WaitGroup, mutexList ci
 
 		/*-------*/
 
-		mutexList[currentCity].Lock()
+		mxIf, ok := mutexList.Load(currentCity)
+		if !ok {
+			panic(fmt.Sprintf("Could not find the mutex for the city: %s", currentCity.Name))
+		}
+		mx, ok := mxIf.(*sync.Mutex)
+		if !ok {
+			panic(fmt.Sprintf("Could not convert the interface mutex for the city: %s", currentCity.Name))
+		}
+		mx.Lock()
 
 		// Alien enters the city
 		currentCity.Enter(a.Name)
 
-		mutexList[currentCity].Unlock()
+		mx.Unlock()
 
 		/*-------*/
 
@@ -67,12 +76,12 @@ func (a *Alien) Invade(currentCity *world.City, wg *sync.WaitGroup, mutexList ci
 
 		/*-----------*/
 
-		mutexList[currentCity].Lock()
+		mx.Lock()
 
 		//Leaving the current city
 		currentCity.Leave(a.Name)
 
-		mutexList[currentCity].Unlock()
+		mx.Unlock()
 
 		/*-----------*/
 
