@@ -46,6 +46,8 @@ func (a *Alien) Invade(currentCity *world.City, wg *sync.WaitGroup, mutexList sy
 		// Alien enters the city
 		currentCity.Enter(a.Name)
 
+		mx.Unlock()
+
 		/*-------*/
 
 		// Check if there is any available path to go to the neighboring cities
@@ -67,13 +69,14 @@ func (a *Alien) Invade(currentCity *world.City, wg *sync.WaitGroup, mutexList sy
 
 		if len(totalAvailablePaths) == 0 {
 			// The city is destroyed it is the end of my life
-			mx.Unlock()
 			return
 		}
 
 		randomPathIndex := tools.RandomNumberI(0, int64(len(totalAvailablePaths))-1)
 
 		/*-----------*/
+
+		mx.Lock()
 
 		//Leaving the current city
 		currentCity.Leave(a.Name)
