@@ -18,7 +18,7 @@ func newAlien(name string) *Alien {
 	return &Alien{Name: name}
 }
 
-// This function (rather method) start the invasion of the alien
+// This method start the invasion of the alien
 // It first enters to the given city then finds all available outgoing paths of the city
 // then it randomly chooses a path and moves to another city
 // If it gets trapped i.e. there is no way to go out of the city, it terminates itself
@@ -46,8 +46,6 @@ func (a *Alien) Invade(currentCity *world.City, wg *sync.WaitGroup, mutexList sy
 		// Alien enters the city
 		currentCity.Enter(a.Name)
 
-		mx.Unlock()
-
 		/*-------*/
 
 		// Check if there is any available path to go to the neighboring cities
@@ -69,14 +67,13 @@ func (a *Alien) Invade(currentCity *world.City, wg *sync.WaitGroup, mutexList sy
 
 		if len(totalAvailablePaths) == 0 {
 			// The city is destroyed it is the end of my life
+			mx.Unlock()
 			return
 		}
 
 		randomPathIndex := tools.RandomNumberI(0, int64(len(totalAvailablePaths))-1)
 
 		/*-----------*/
-
-		mx.Lock()
 
 		//Leaving the current city
 		currentCity.Leave(a.Name)
