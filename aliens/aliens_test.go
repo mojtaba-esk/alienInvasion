@@ -121,7 +121,7 @@ func TestAliens(t *testing.T) {
 
 			InitInvasion(tc.numOfAliens, listOfCities)
 
-			numOfDestroyed := world.NumOfDestroyedCities(listOfCities)
+			numOfDestroyed := world.GetNumOfDestroyedCities(listOfCities)
 
 			if numOfDestroyed < tc.minDestroyed {
 				t.Fatalf("Expected to destory at least `%d` cities, but `%d` cities destroyed", tc.minDestroyed, numOfDestroyed)

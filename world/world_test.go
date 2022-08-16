@@ -63,7 +63,7 @@ func TestGenerateAndLoad(t *testing.T) {
 			database := buildTextDatabase(listOfCities)
 
 			// Testing Database Load
-			loadedCities, err := ParseText(database)
+			loadedCities, err := parseText(database)
 			if err != nil {
 				t.Fatalf("Error in database load: %v", err)
 			}
@@ -83,7 +83,7 @@ func buildTextDatabase(listOfCities Cities) string {
 
 	output := ""
 	for i := 0; i < len(listOfCities); i++ {
-		cityStr := listOfCities[i].ToString()
+		cityStr := listOfCities[i].String()
 		if cityStr != "" {
 			output += cityStr + "\n"
 		}

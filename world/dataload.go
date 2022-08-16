@@ -11,7 +11,7 @@ import (
 /*---------------------*/
 
 // This function receives a `filepath`, attempts to load the file
-// then hands over the content to `ParseText()` for further processing
+// then hands over the content to `parseText()` for further processing
 // It returns the parsed data in form of a slice of pointers to all cities
 func Load(filepath string) (Cities, error) {
 
@@ -31,12 +31,12 @@ func Load(filepath string) (Cities, error) {
 	}
 
 	text := string(contentInBytes)
-	return ParseText(text)
+	return parseText(text)
 }
 
 // This function receives a `text` and parses the data to extract city names and their connection
 // It returns the parsed data in form of a slice of pointers to all cities
-func ParseText(text string) (Cities, error) {
+func parseText(text string) (Cities, error) {
 
 	var listOfCities Cities
 
@@ -60,7 +60,7 @@ func ParseText(text string) (Cities, error) {
 
 		// If it is new, let's add it to our hashTable
 		if currentCity == nil {
-			hashTable[cityName] = &City{Name: cityName}
+			hashTable[cityName] = &City{name: cityName}
 			currentCity = hashTable[cityName]
 		}
 
@@ -78,20 +78,20 @@ func ParseText(text string) (Cities, error) {
 
 			// If it is new, let's add it to our hashTable
 			if targetCity == nil {
-				hashTable[targetCityName] = &City{Name: targetCityName}
+				hashTable[targetCityName] = &City{name: targetCityName}
 				targetCity = hashTable[targetCityName]
 			}
 
 			// Handling the direction
 			switch targetDirection {
 			case "north":
-				currentCity.North = targetCity
+				currentCity.north = targetCity
 			case "east":
-				currentCity.East = targetCity
+				currentCity.east = targetCity
 			case "south":
-				currentCity.South = targetCity
+				currentCity.south = targetCity
 			case "west":
-				currentCity.West = targetCity
+				currentCity.west = targetCity
 			default:
 				return nil, fmt.Errorf("malformatted data: direction is not corrent")
 			}

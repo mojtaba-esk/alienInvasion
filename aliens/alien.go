@@ -8,14 +8,10 @@ import (
 	"github.com/mojtaba-esk/alienInvasion/world"
 )
 
-type Alien struct {
-	Name string
-}
-
 // This function recives the name of an alien,
 // create a new alien object and returns the pointer address to it
 func newAlien(name string) *Alien {
-	return &Alien{Name: name}
+	return &Alien{name: name}
 }
 
 // This method start the invasion of the alien
@@ -35,16 +31,16 @@ func (a *Alien) Invade(currentCity *world.City, wg *sync.WaitGroup, mutexList sy
 
 		mxIf, ok := mutexList.Load(currentCity)
 		if !ok {
-			panic(fmt.Sprintf("Could not find the mutex for the city: %s", currentCity.Name))
+			panic(fmt.Sprintf("Could not find the mutex for the city: %s", currentCity.GetName()))
 		}
 		mx, ok := mxIf.(*sync.Mutex)
 		if !ok {
-			panic(fmt.Sprintf("Could not convert the interface mutex for the city: %s", currentCity.Name))
+			panic(fmt.Sprintf("Could not convert the interface mutex for the city: %s", currentCity.GetName()))
 		}
 		mx.Lock()
 
 		// Alien enters the city
-		currentCity.Enter(a.Name)
+		currentCity.Enter(a.name)
 
 		mx.Unlock()
 
@@ -53,18 +49,18 @@ func (a *Alien) Invade(currentCity *world.City, wg *sync.WaitGroup, mutexList sy
 		// Check if there is any available path to go to the neighboring cities
 		totalAvailablePaths := world.Cities{}
 
-		if currentCity.North != nil {
-			totalAvailablePaths = append(totalAvailablePaths, currentCity.North)
+		if currentCity.GetNorth() != nil {
+			totalAvailablePaths = append(totalAvailablePaths, currentCity.GetNorth())
 		}
-		if currentCity.East != nil {
-			totalAvailablePaths = append(totalAvailablePaths, currentCity.East)
+		if currentCity.GetEast() != nil {
+			totalAvailablePaths = append(totalAvailablePaths, currentCity.GetEast())
 
 		}
-		if currentCity.South != nil {
-			totalAvailablePaths = append(totalAvailablePaths, currentCity.South)
+		if currentCity.GetSouth() != nil {
+			totalAvailablePaths = append(totalAvailablePaths, currentCity.GetSouth())
 		}
-		if currentCity.West != nil {
-			totalAvailablePaths = append(totalAvailablePaths, currentCity.West)
+		if currentCity.GetWest() != nil {
+			totalAvailablePaths = append(totalAvailablePaths, currentCity.GetWest())
 		}
 
 		if len(totalAvailablePaths) == 0 {
@@ -79,7 +75,7 @@ func (a *Alien) Invade(currentCity *world.City, wg *sync.WaitGroup, mutexList sy
 		mx.Lock()
 
 		//Leaving the current city
-		currentCity.Leave(a.Name)
+		currentCity.Leave(a.name)
 
 		mx.Unlock()
 

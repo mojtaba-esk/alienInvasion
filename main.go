@@ -18,20 +18,19 @@ func main() {
 
 	/*--------------*/
 
-	var action string
-	flag.StringVar(&action, "a", "start",
-		`Specify the action: 
+	var (
+		action       string
+		numOfCities  int64
+		databasePath string
+		numOfAliens  int64
+	)
+
+	flag.StringVar(&action, "a", "start", `Specify the action: 
 	- generate-world	Generates a new world
 	- start			Starts the invasion normally`,
 	)
-
-	var numOfCities int64
 	flag.Int64Var(&numOfCities, "c", 10, "Specify the number of cities for the world generator.")
-
-	var databasePath string
 	flag.StringVar(&databasePath, "d", "database.txt", "Specify the path to the database file.")
-
-	var numOfAliens int64
 	flag.Int64Var(&numOfAliens, "n", 5, "Specify the number of aliens.")
 
 	flag.Parse()
@@ -56,7 +55,7 @@ func main() {
 
 			fmt.Printf("\n\n\t\t==============================\n")
 
-			totalAliveCities := int64(len(listOfAllCities)) - world.NumOfDestroyedCities(listOfAllCities)
+			totalAliveCities := int64(len(listOfAllCities)) - world.GetNumOfDestroyedCities(listOfAllCities)
 			fmt.Printf("\nThe cities left of the world: `%d`\n\n", totalAliveCities)
 
 			world.PrintAllCities(listOfAllCities)

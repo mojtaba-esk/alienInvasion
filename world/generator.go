@@ -9,7 +9,14 @@ import (
 	"github.com/mojtaba-esk/alienInvasion/tools"
 )
 
-/*--------------------*/
+var (
+	// `_cityIdSequence` is a global var that is used to generate sequential names
+	// for cities in case the real names are not available or not enough
+	_cityIdSequence int64
+
+	// This function gets a random unique name from the city database
+	_cityNamesList []string
+)
 
 // This function receives the number of cities and generates a new world accordingly
 // It returns a slice holding all the pointers to the cities
@@ -35,10 +42,6 @@ func Generate(numOfCities int64) Cities {
 
 }
 
-// `cityIdSequence` is a global var that is used to generate sequential names
-// for cities in case the real names are not available or not enough
-var cityIdSequence int64
-
 // This function generates a new random city and returns a pointer to its node
 func generateNewCity() *City {
 
@@ -46,23 +49,20 @@ func generateNewCity() *City {
 
 	randomCityName := getRandomCityName()
 	if randomCityName == "" {
-		randomCityName = fmt.Sprintf("City_#%d", cityIdSequence)
-		cityIdSequence++
+		randomCityName = fmt.Sprintf("City_#%d", _cityIdSequence)
+		_cityIdSequence++
 	}
-	cityNode.Name = randomCityName
+	cityNode.name = randomCityName
 
 	return &cityNode
 }
 
-// This function gets a random unique name from the city database
-var cityNamesList []string
-
 func getRandomCityName() string {
 
 	// Load the city names for the first time
-	if cityNamesList == nil {
+	if _cityNamesList == nil {
 		var err error
-		cityNamesList, err = loadCityNamesFromCSV()
+		_cityNamesList, err = loadCityNamesFromCSV()
 
 		if err != nil {
 			log.Printf("[Err  ] city names .csv file loading: %v", err)
@@ -70,16 +70,16 @@ func getRandomCityName() string {
 		}
 	}
 
-	if len(cityNamesList) == 0 {
+	if len(_cityNamesList) == 0 {
 		return ""
 	}
 
 	// Find a unique random name
-	randomIndex := tools.RandomNumberI(0, int64(len(cityNamesList))-1)
-	output := cityNamesList[randomIndex]
+	randomIndex := tools.RandomNumberI(0, int64(len(_cityNamesList))-1)
+	output := _cityNamesList[randomIndex]
 
 	// Let's remove the city name in order to avoid duplicates
-	cityNamesList = tools.SliceItemRemoveByIndex(cityNamesList, randomIndex)
+	_cityNamesList = tools.SliceItemRemoveByIndex(_cityNamesList, randomIndex)
 
 	return output
 }
@@ -88,7 +88,7 @@ func getRandomCityName() string {
 // returns a slice with the names of all the major cities in the world
 func loadCityNamesFromCSV() ([]string, error) {
 
-	file, err := os.Open(cityNamesCSVFilePath)
+	file, err := os.Open(_cityNamesCSVFilePath)
 	if err != nil {
 		return nil, err
 	}
