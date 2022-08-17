@@ -23,7 +23,7 @@ var (
 func Generate(numOfCities int64) Cities {
 
 	if numOfCities <= 0 {
-		return Cities{}
+		return nil
 	}
 
 	listOfAllCities := make(Cities, numOfCities)

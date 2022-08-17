@@ -25,7 +25,7 @@ func (a *Alien) Invade(currentCity *world.City, wg *sync.WaitGroup, mutexList sy
 	defer wg.Done()
 
 	numOfVisits := 0
-	for numOfVisits < alienMoveThreshold {
+	for numOfVisits < _alienMoveThreshold {
 
 		/*-------*/
 
