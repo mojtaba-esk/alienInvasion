@@ -29,7 +29,7 @@ func TestGenerateAndLoad(t *testing.T) {
 			numOfCities: 5000,
 		},
 		{
-			name:        "Testing with avarage number of cities",
+			name:        "Testing with average number of cities",
 			numOfCities: 100,
 		},
 		{
